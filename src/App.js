@@ -26,7 +26,6 @@ class App extends Component {
     
     return (
       <div className="App">
-        
         <SidebarSlide className= "floatright"/>
           {/* <div className="nav-container">
             <Navbar onSetOpen={this.onSetSidebarOpen}/>

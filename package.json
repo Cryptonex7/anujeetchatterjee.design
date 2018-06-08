@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://cryptonex7.github.io/anujeetchatterjee.design",
   "dependencies": {
+    "gsap": "^2.0.1",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-scripts": "1.1.4",

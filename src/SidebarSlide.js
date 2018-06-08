@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import BackgroundLogo from './BackgroundLogo';
 import AboutBar from './AboutBar';
 import IntroBar from './IntroBar';
+import ThemeChanger from './ThemeChanger';
 import { Sidebar, Segment, Menu, Icon } from 'semantic-ui-react'
+import bkg from './bkg-animation.svg';
 import './semantic.css';
 import './Navbar.css';
 import './App.css';
@@ -25,6 +27,25 @@ class SidebarSlide extends Component {
   toggleVisibility = () => {
     this.setState({ visible: !this.state.visible })
     this.rotations();
+  }
+
+  onColorChangeR =()=>{
+    console.log("press");
+    let x = document.getElementsByTagName("html")[0];
+    x.style.cssText = "--ac-red: #BF0000" ;
+    console.log(x.style);
+  }
+  onColorChangeG =()=>{
+    console.log("press");
+    let x = document.getElementsByTagName("html")[0];
+    x.style.cssText = "--ac-red: #00BF00" ;
+    console.log(x.style);
+  }
+  onColorChangeB =()=>{
+    console.log("press");
+    let x = document.getElementsByTagName("html")[0];
+    x.style.cssText = "--ac-red: #0000BF" ;
+    console.log(x.style);
   }
 
   render() {              
@@ -86,26 +107,29 @@ class SidebarSlide extends Component {
                     {/* ===============================MAIN=====================MAIN=========================MAIN============= */}
           <Sidebar.Pusher>
             <Segment basic>
-              <div>
-                <IntroBar/>
-                <AboutBar/>   {/**/}
-                
-                <BackgroundLogo/>
-                
-                <p id='welcome'>Welcome</p>
-                
-                <div className="intro">
-                  <p id='intro'>to the Grand</p><p id='portfolio'> Portfolio!</p>
-                </div>
-                <div className="belowspace">
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                  <br/>
-                </div>
+              <div className="maincont">
+
+                  <IntroBar/>
+                  <AboutBar/>   {/**/}
+                  
+                  <BackgroundLogo/>
+                  
+                  <p id='welcome'>Welcome</p>
+                  
+                  <div className="intro">
+                    <p id='intro'>to the Grand</p><p id='portfolio'> Portfolio!</p>
+                  </div>
+
+                  <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
+                  <div className="belowspace">
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                  </div>
               </div>      
             </Segment>
           </Sidebar.Pusher>

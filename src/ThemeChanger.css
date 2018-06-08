@@ -1,0 +1,13 @@
+@import url(./variables.css);
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.bottom a {
+    margin-top: 50px;
+    color: var(--ac-red);
+}
