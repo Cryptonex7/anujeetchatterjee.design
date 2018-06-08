@@ -3,7 +3,7 @@ import BackgroundLogo from './BackgroundLogo';
 import AboutBar from './AboutBar';
 import IntroBar from './IntroBar';
 import { Sidebar, Segment, Menu, Icon } from 'semantic-ui-react'
-import 'semantic-ui-css/semantic.css';
+import './semantic.css';
 import './Navbar.css';
 import './App.css';
 import './svg.css';
@@ -76,11 +76,11 @@ class SidebarSlide extends Component {
             </Menu.Item>
             <Menu.Item name='gamepad'>
               <Icon name='gamepad' />
-              Games
+              Web Design
             </Menu.Item>
             <Menu.Item name='camera'>
               <Icon name='camera' />
-              Channels
+              Music
             </Menu.Item>
           </Sidebar>
                     {/* ===============================MAIN=====================MAIN=========================MAIN============= */}

@@ -32,6 +32,7 @@
     display: block;
     padding: 1rem;
     padding-left: 2rem;
+    padding-top: 0.3rem;
     /* margin-top: 300px; */
     max-width: 500px;
     filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
@@ -44,7 +45,7 @@
 }
 
 .intro-content h3 {
-    margin-bottom: 0;
+    margin-bottom: 0.2rem;
 }
 
 .intro-content p {
