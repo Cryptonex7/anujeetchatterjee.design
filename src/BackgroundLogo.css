@@ -1,0 +1,22 @@
+
+@import url(./variables.css);
+
+@keyframes glow-bkg {
+    0% {
+        filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
+    }
+    50% {
+        filter: drop-shadow(8px 8px 8px var(--ac-blue));
+        
+    }
+    100% {
+        filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
+    }
+}
+
+
+.BackgroundLogo {
+    animation: glow-bkg 6000ms ease-in-out infinite;
+    width: 30%;
+    margin: 2%;
+}

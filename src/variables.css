@@ -1,0 +1,17 @@
+:root {
+    --ac-black: #000;
+    --ac-gray: #151515;
+    --ac-white: #fff;
+    
+    --ac-red: #BF0000;
+    --ac-red-dark: #370000;
+    
+    --ac-blue: #0000BF;
+    --ac-blue-dark: #000037;
+
+    --ac-text-gray: #71757a;
+
+
+    --rgb-red: #ff0000;
+    --rgb-blue: #0000ff;
+}
