@@ -1,22 +1,24 @@
 import React from 'react';
-import './Navbar.css';
-import navicon from './navicon.svg'
+import './NavBar.css';
 
 
-const Navbar = ({onSetOpen}) => {
+const NavBar = () => {
     return(
-        <div className="nav dt w-100 border-box pa3 ph5-ns">
-            <a onClick={()=> onSetOpen(true)} className="dtc v-mid link dim w-25" href="" title="Home">
-                <img src= {navicon} className="dib w2 h2 br-100" alt="Site Name"/>
-            </a>
-            <div className="dtc v-mid w-75 tr">
-                <a onClick={()=> onSetOpen(true)} className="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="" title="About">Services</a>
-                <a onClick={()=> onSetOpen(false)} className="link dim dark-gray f6 f5-ns dib mr3 mr4-ns" href="" title="Store">Blog</a>
-                <a onClick={()=> onSetOpen(false)} className="link dim dark-gray f6 f5-ns dib" id='joinus'href="" title="Contact">Join Us</a>
-            </div>
+        <div className="nav ph5-ns">
+          
+          <div className="page-title v-mid">
+            #<span className="gray-text">the</span>Grand<span className="red-text">Portfolio</span>
+          </div>
+          
+          
+          <div className="link-container v-mid">
+            <a className="link dim mr4-ns"  id='services'   href="" title="About">Services</a>
+            <a className="link dim mr4-ns"  id='blog'       href="" title="Store">Blog</a>
+            <a className="link dim"         id='joinus'     href="" title="Contact">Join Us</a>
+          </div>
         </div>
 
     );
 }
 
-export default Navbar; 
+export default NavBar; 

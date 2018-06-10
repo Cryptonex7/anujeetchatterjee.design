@@ -1,0 +1,19 @@
+.side-toggle{
+    background-color: var(--ac-gray);
+    width: 40px;
+    padding-top: 21.75%;
+    padding-bottom: 21.75%;
+    float: left;
+    z-index: 2;
+     
+    /* text-orientation: sideways-right; */
+    /* writing-mode: vertical-rl; */
+}
+
+.nav-btn{
+    width: 40px;
+    margin: auto;
+
+
+}
+  

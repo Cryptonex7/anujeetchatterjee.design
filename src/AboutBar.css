@@ -76,12 +76,12 @@
 }
 .facebook {
     fill: var(--ac-white);
-    stroke: var(--ac-red);
+    stroke: var(--ac-primary);
     
 }
 .linkedin {
     fill:var(--ac-white);
-    stroke: var(--ac-red);
+    stroke: var(--ac-primary);
     
 
 }
@@ -90,8 +90,8 @@
     fill-opacity: 1;
 }
 .youtube {
-    fill:var(--ac-red);
-    stroke: var(--ac-red);
+    fill:var(--ac-primary);
+    stroke: var(--ac-primary);
     
 }
 .googleplus {
@@ -102,11 +102,11 @@
 }
 
 .social-icons:hover {
-    transition: fill-opacity 2000ms, filter 1500ms;
+    transition: fill-opacity 1000ms, filter 1500ms;
     animation: none;
-    filter: drop-shadow(0px 0px 10px var(--rgb-red));
+    filter: drop-shadow(0px 0px 10px var(--ac-primary));
     fill-opacity: 1;
-    fill: var(--ac-red);
+    fill: var(--ac-primary);
 }
 
 .youtube:hover {
@@ -114,5 +114,5 @@
     animation: none;
     filter: drop-shadow(0px 0px 10px var(--ac-white));
     fill-opacity: 1;
-    fill: var(--ac-red);
+    fill: var(--ac-primary);
 }

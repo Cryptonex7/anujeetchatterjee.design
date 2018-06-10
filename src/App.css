@@ -36,24 +36,13 @@ body {
   float: left;
   width: 10px;
 }
-.side-toggle{
-  background-color: var(--ac-gray);
-  width: 40px;
-  padding-top: 21.75%;
-  padding-bottom: 21.75%;
-  float: left;
-  z-index: 2;
-   
-  /* text-orientation: sideways-right; */
-  /* writing-mode: vertical-rl; */
-}
 
 .white {fill:var(--ac-white);}
 
 #welcome {
   font-size: 30px;
   margin: 0;
-  color: var(--ac-red);
+  color: var(--ac-primary);
 }
 .intro{
   display: flex;
@@ -69,12 +58,12 @@ body {
 
 #portfolio{
   font-size: 24px;
-  color: var(--ac-red);
+  color: var(--ac-primary);
   margin: 0%;
 }
 
 .red-text {
-  color: var(--ac-red);
+  color: var(--ac-primary);
 }
 
 .gray-text {
