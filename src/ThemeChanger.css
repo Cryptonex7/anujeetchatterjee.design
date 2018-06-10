@@ -8,6 +8,47 @@ a {
 }
 
 .bottom a {
-    margin-top: 50px;
-    color: var(--ac-red);
+    color: var(--ac-white);
+    margin: auto;
+    font-size: 1.2em;
+    
+    
+}
+
+#red, #green, #blue {
+    margin: 10px;
+
+    background-color: var(--ac-primary);
+    padding: 0.6em;
+    border-radius: 100px;
+    width: 80px;
+    display: inline-block;
+}
+
+#click {
+    color: var(--ac-text-gray);
+}
+
+#red:hover, #green:hover, #blue:hover {
+    transform: scale(1.1);
+}
+
+#red:hover {
+    background-color: var(--ac-red);
+    transition: background-color 350ms,
+                transform 350ms;
+    ;
+}
+
+#green:hover {
+    background-color: var(--ac-green);
+    transition: background-color 350ms,
+                transform 350ms;
+}
+
+#blue:hover {
+    background-color: var(--ac-blue);
+    transition: background-color 350ms,
+                transform 350ms;
+    
 }

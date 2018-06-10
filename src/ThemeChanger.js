@@ -1,14 +1,26 @@
 import React from 'react';
 import './ThemeChanger.css';
+import './NavBar.css';
+
 
 
 const ThemeChanger = ({onClickR, onClickG, onClickB}) => {
     return(
         <div className="">
-            <div className="bottom dtc v-mid w-75 tr">
-                <a onClick={()=> onClickR()} className="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  title="About">RED</a>
-                <a onClick={()=> onClickG()} className="link dim dark-gray f6 f5-ns dib mr3 mr4-ns"  title="Store">GREEN</a>
-                <a onClick={()=> onClickB()} className="link dim dark-gray f6 f5-ns dib"  title="Contact">BLUE</a>
+            
+            <div className="bottom v-mid">
+                <div id="red" onClick={()=> onClickR()}>
+                    <a onClick={()=> onClickR()} className="link dim mr3 mr4-ns"    id="" >Redddd</a>
+                </div>
+                <div id="green" onClick={()=> onClickG()}>
+                    <a onClick={()=> onClickG()} className="link dim mr3 mr4-ns"    id="" >Greeen</a>
+                </div>
+                <div id="blue" onClick={()=> onClickB()}>
+                    <a onClick={()=> onClickB()} className="link dim "              id="" >Blueee</a>
+                </div>
+            </div>
+            <div id="click">
+                Click to Change Color Theme
             </div>
         </div>
 

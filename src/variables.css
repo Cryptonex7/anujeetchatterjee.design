@@ -9,8 +9,13 @@ html {
     --ac-blue: #0000BF;
     --ac-blue-dark: #000037;
 
+    --ac-green: #00BF00;
+    --ac-green-dark: #003700;
+
+
     --ac-text-gray: #71757a;
 
+    --ac-primary: #4299ff;
 
     --rgb-red: #ff0000;
     --rgb-blue: #0000ff;
