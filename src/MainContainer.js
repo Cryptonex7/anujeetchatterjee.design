@@ -37,18 +37,7 @@ class MainContainer extends Component {
 
                 <IntroBar/>
                 <AboutBar/>   
-                
                 <BackgroundLogo/>
-                
-                <p id='welcome'>Welcome</p>
-                
-                <div className="intro">
-                <p id='intro'>to the Grand</p><p id='portfolio'> Portfolio!</p>
-                </div>
-                
-                <br/>
-                <br/>
-
                 <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
                 
                 <br/>
