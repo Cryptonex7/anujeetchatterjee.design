@@ -1,8 +1,8 @@
 .side-toggle{
     background-color: var(--ac-gray);
     width: 40px;
-    padding-top: 21.75%;
-    padding-bottom: 21.75%;
+    padding-top: 25%;
+    padding-bottom: 25%;
     float: left;
     z-index: 2;
      
@@ -17,3 +17,18 @@
 
 }
   
+
+@media(max-width: 1580px) {
+    .side-toggle {
+        padding-top: 23.25%;
+        padding-bottom: 23.25%;
+    }
+}
+
+
+@media(max-width: 1030px) {
+    .side-toggle {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
+}

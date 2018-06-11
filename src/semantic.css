@@ -59,7 +59,6 @@
   */
  
  html {
-   line-height: 1.15;
    /* 1 */
    -ms-text-size-adjust: 100%;
    /* 2 */
@@ -553,9 +552,7 @@
    height: 100%;
  }
  
- html {
-   font-size: 14px;
- }
+ 
  
  body {
    margin: 0px;

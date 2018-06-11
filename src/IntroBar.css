@@ -5,24 +5,18 @@
 
 .-intro h1 {
     text-align: left;
-    font-size: 40px;
+    font-size: 2.8rem;
     margin-left: 2rem;
     margin-bottom: 0.3rem;
     
 
 }
 
-
-
-.-follow{
-    font-size: 50px;
-    margin: auto;
-}
-
 .intro-container{
     margin-top: 300px;
     z-index: 10;
     position: fixed;
+    margin-left: 40px;
     
 }
 
@@ -30,11 +24,9 @@
     background-color: var(--ac-gray);
     padding: 1rem;
     display: block;
-    padding: 1rem;
     padding-left: 2rem;
     padding-top: 0.3rem;
-    /* margin-top: 300px; */
-    max-width: 500px;
+    width: 52.5%;
     filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
     
 }
@@ -52,74 +44,45 @@
     color: #aaa;
 }
 
-@keyframes glow {
-    0% {
-        opacity: 1;
+@media only screen and (max-width: 1580px) {
+    .-intro h1 {
+        text-align: left;
+        font-size: 2rem;
+        margin-left: 2rem;
+        margin-bottom: 0.3rem;
+        
+    
     }
-    25% {
-        filter: drop-shadow(0px 0px 10px var(--ac-white));
+}
+
+
+@media only screen and (max-width: 1030px) {
+    .-intro h1 {
+        text-align: center;
+        font-size: 2.4rem;
+        margin-left: 1.5rem;
+        margin-bottom: 0.25rem;
+        
+    
+    }
+    .intro-container{
+        margin-top: 0px;
+        z-index: 10;
+        position: relative;
+        margin-left: 0;
+    }
+    .intro-bar {
+        background-color: var(--ac-gray);
+        padding: 1rem;
+        display: block;
+        padding-left: 2rem;
+        padding-top: 0.3rem;
+        width: 100%;
+        filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
         
     }
-    50% {
-        opacity: 1;
-        fill: var(--ac-white);
+
+    .intro-content{
+        text-align: center;
     }
-    75% {
-        opacity: 1;
-    }
-    100%{
-        opacity: 1;
-    }
-
-}
-
-
-.social-icons {
-    width: 80px;
-    animation: glow 5000ms ease-in infinite;
-    fill-opacity: 0; 
-    stroke-width: 2; 
-    stroke:var(--ac-white);
-}
-.facebook {
-    fill:var(--ac-white);
-    stroke: var(--ac-primary);
-    
-}
-.linkedin {
-    fill:var(--ac-white);
-    stroke: var(--ac-primary);
-    
-
-}
-.instagram {
-    fill:var(--ac-white);
-    fill-opacity: 1;
-}
-.youtube {
-    fill:var(--ac-primary);
-    stroke: var(--ac-primary);
-    
-}
-.googleplus {
-    fill:var(--ac-white);
-}
-.github {
-    fill:var(--ac-primary);
-}
-
-.social-icons:hover {
-    transition: fill-opacity 2000ms, filter 1500ms;
-    animation: none;
-    filter: drop-shadow(0px 0px 10px var(--rgb-red));
-    fill-opacity: 1;
-    fill: var(--ac-primary);
-}
-
-.youtube:hover {
-    transition: fill-opacity 2000ms, filter 1500ms;
-    animation: none;
-    filter: drop-shadow(0px 0px 10px var(--ac-white));
-    fill-opacity: 1;
-    fill: var(--ac-primary);
 }

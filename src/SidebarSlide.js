@@ -1,8 +1,4 @@
 import React, { Component } from 'react'
-import BackgroundLogo from './BackgroundLogo';
-import AboutBar from './AboutBar';
-import IntroBar from './IntroBar';
-import ThemeChanger from './ThemeChanger';
 import SideButton from './SideButton';
 import NavBar from './NavBar';
 import MainContainer from './MainContainer'
@@ -38,7 +34,6 @@ class SidebarSlide extends Component {
 
 			<div>
 
-				<SideButton visibilityFunction= {this.toggleVisibility}/>
 
 				<NavBar/>
 
@@ -63,6 +58,7 @@ class SidebarSlide extends Component {
 
 					<Sidebar.Pusher>
 						<Segment basic>
+				<SideButton visibilityFunction= {this.toggleVisibility}/>
 							
 							<MainContainer/>
 							

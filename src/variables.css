@@ -1,4 +1,8 @@
 html {
+    font-size: 20px;
+    line-height: 1.15;
+    
+
     --ac-black: #000;
     --ac-gray: #151515;
     --ac-white: #fff;
@@ -19,4 +23,27 @@ html {
 
     --rgb-red: #ff0000;
     --rgb-blue: #0000ff;
+}
+
+
+@media(max-width: 1580px) {
+    html {
+        font-size: 18px;
+        line-height: 1.15;
+        
+    }
+}
+
+@media(max-width: 980px) {
+    html {
+        line-height: 1.1;
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 800px) {
+    html {
+        line-height: 1.0;
+        font-size: 10px;
+    }
 }

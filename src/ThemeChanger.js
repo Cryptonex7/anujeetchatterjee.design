@@ -10,13 +10,13 @@ const ThemeChanger = ({onClickR, onClickG, onClickB}) => {
             
             <div className="bottom v-mid">
                 <div id="red" onClick={()=> onClickR()}>
-                    <a onClick={()=> onClickR()} className="link dim mr3 mr4-ns"    id="" >Redddd</a>
+                    <a onClick={()=> onClickR()} className="link dim mr3 mr4-ns"    id="" >Red</a>
                 </div>
                 <div id="green" onClick={()=> onClickG()}>
-                    <a onClick={()=> onClickG()} className="link dim mr3 mr4-ns"    id="" >Greeen</a>
+                    <a onClick={()=> onClickG()} className="link dim mr3 mr4-ns"    id="" >Green</a>
                 </div>
                 <div id="blue" onClick={()=> onClickB()}>
-                    <a onClick={()=> onClickB()} className="link dim "              id="" >Blueee</a>
+                    <a onClick={()=> onClickB()} className="link dim "              id="" >Blue</a>
                 </div>
             </div>
             <div id="click">

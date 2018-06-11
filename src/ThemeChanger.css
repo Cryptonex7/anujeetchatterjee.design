@@ -10,7 +10,7 @@ a {
 .bottom a {
     color: var(--ac-white);
     margin: auto;
-    font-size: 1.2em;
+    font-size: 1em;
     
     
 }
@@ -50,5 +50,32 @@ a {
     background-color: var(--ac-blue);
     transition: background-color 350ms,
                 transform 350ms;
+    
+}
+
+@media only screen and (max-width: 1030px) {
+    #red:hover, #green:hover, #blue:hover {
+        transform: none;
+    }
+    #red{
+        background-color: var(--ac-red);
+    }
+    #red:hover {
+        transition: none;
+        
+    }
+    #green{
+        background-color: var(--ac-green);
+    }
+    #green:hover {
+        transition: none;
+    }
+    #blue{
+        background-color: var(--ac-blue);
+    }    
+    #blue:hover {
+        transition: none;
+        
+    }
     
 }
