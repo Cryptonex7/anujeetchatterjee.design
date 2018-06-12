@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import './BackgroundLogo.css';
+import logo from '../../assets/logo.svg';
+import '../../css/BackgroundLogo.css';
 
 const BackgroundLogo = () => {
     return(
@@ -12,7 +12,6 @@ const BackgroundLogo = () => {
             <p id='intro'>to the Grand</p><p id='portfolio'> Portfolio!</p>
             </div>
             
-            <br/>
             <br/>
         </div>
 

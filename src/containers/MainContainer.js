@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import AboutBar from './AboutBar';
-import IntroBar from './IntroBar';
-import ThemeChanger from './ThemeChanger';
-import BackgroundLogo from './BackgroundLogo';
+import IntroBar from '../components/IntroBar/IntroBar';
+import ThemeChanger from '../components/ThemeChanger/ThemeChanger';
+import BackgroundLogo from '../components/BackgroundLogo/BackgroundLogo';
 
 
 
@@ -71,7 +71,6 @@ class MainContainer extends Component {
                         <IntroBar/>
                         <AboutBar/>   
                         <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
-                        <br/>
                     </div>
                 }
                 </div>

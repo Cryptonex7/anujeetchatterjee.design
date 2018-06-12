@@ -71,6 +71,7 @@
     fill-opacity: 0; 
     stroke-width: 2; 
     stroke: var(--ac-white);
+    display: inline-block;
 }
 .facebook {
     fill: var(--ac-white);

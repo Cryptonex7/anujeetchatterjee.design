@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import SideButton from './SideButton';
-import NavBar from './NavBar';
+import SideButton from '../components/SideButton/SideButton';
+import NavBar from '../components/NavBar/NavBar';
 import MainContainer from './MainContainer'
 import { Sidebar, Segment, Menu, Icon } from 'semantic-ui-react'
-import './semantic.css';
-import './App.css';
-import './svg.css';
+import '../css/semantic.css';
+import '../css/App.css';
+import '../css/svg.css';
 
 
 class SidebarSlide extends Component {

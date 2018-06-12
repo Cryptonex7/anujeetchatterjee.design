@@ -1,6 +1,6 @@
 import React from 'react';
-import './ThemeChanger.css';
-import './NavBar.css';
+import '../../css/ThemeChanger.css';
+import '../../css/NavBar.css';
 
 
 

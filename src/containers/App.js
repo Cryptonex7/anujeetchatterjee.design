@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import SidebarSlide from './SidebarSlide';
-import './App.css';
+import '../css/App.css';
 
-import './AboutBar.css';
-import './IntroBar.css';
+import '../css/AboutBar.css';
+import '../css/IntroBar.css';
 
 
 class App extends Component {

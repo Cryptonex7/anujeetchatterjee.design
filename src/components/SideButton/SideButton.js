@@ -1,6 +1,6 @@
 import React from 'react';
-import './SideButton.css';
-import './svg.css';
+import '../../css/SideButton.css';
+import '../../css/svg.css';
 
 
 const SideButton = ({visibilityFunction}) => {
