@@ -3,7 +3,8 @@ import SideButton from '../components/SideButton/SideButton';
 import NavBar from '../components/NavBar/NavBar';
 import MainContainer from './MainContainer'
 import { Sidebar, Segment, Menu, Icon } from 'semantic-ui-react'
-import '../css/semantic.css';
+// import '../css/semantic.css';
+import '../css/Slider.css';
 import '../css/App.css';
 import '../css/svg.css';
 
