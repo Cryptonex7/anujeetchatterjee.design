@@ -64,6 +64,8 @@ class MainContainer extends Component {
                         <BackgroundLogo/>
                         <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
                         <br/>
+                        <br/>
+                        <br/>
                     </div>
                 :
                     <div>

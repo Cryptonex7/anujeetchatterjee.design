@@ -7,29 +7,25 @@ import '../css/IntroBar.css';
 
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      sidebarOpen: false
-    }
-
-    this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
+  
+  handleScroll = (event) => {
+    console.log('handleScroll invoked');
   }
 
-  onSetSidebarOpen = (open) => {
-    this.setState({sidebarOpen: open});
+  componentDidMount = ()=> {
+    console.log('componentDidMount invoked');
+    window.addEventListener('scroll', this.handleScroll);
   }
 
-
+  componentWillUnmount = ()=> {
+    console.log('componentWillUnmount invoked');
+    window.removeEventListener('scroll', this.handleScroll);
+  }
   render() {
     
     return (
       <div className="App">
         <SidebarSlide className= "floatright"/>
-          {/* <div className="nav-container">
-            <Navbar onSetOpen={this.onSetSidebarOpen}/>
-          </div> */}
       </div>
     );
   }

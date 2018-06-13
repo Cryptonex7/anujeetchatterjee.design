@@ -47,3 +47,8 @@ html {
         font-size: 10px;
     }
 }
+body::-webkit-scrollbar {
+    width: 0px;
+    background-color: #000000;
+} 
+

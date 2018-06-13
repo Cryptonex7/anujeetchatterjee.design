@@ -6,7 +6,7 @@ import '../../css/NavBar.css';
 
 const ThemeChanger = ({onClickR, onClickG, onClickB}) => {
     return(
-        <div className="">
+        <div className="pos-fixed">
             
             <div className="bottom v-mid">
                 <div id="red" onClick={()=> onClickR()}>

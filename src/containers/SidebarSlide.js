@@ -59,8 +59,7 @@ class SidebarSlide extends Component {
 
 					<Sidebar.Pusher>
 						<Segment basic>
-				<SideButton visibilityFunction= {this.toggleVisibility}/>
-							
+							<SideButton visibilityFunction= {this.toggleVisibility}/>
 							<MainContainer/>
 							
 						</Segment>

@@ -704,90 +704,6 @@
    background: rgba(255, 255, 255, 0.35);
  }
  
- /*******************************
-         Global Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Button
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Button
- *******************************/
- 
- 
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Container
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Container
- *******************************/
- 
- /* All Sizes */
- 
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Divider
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Divider
- *******************************/
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Label
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
  
  /*******************************
              Label
@@ -1605,45 +1521,6 @@
  .ui.massive.label {
    font-size: 1.71428571rem;
  }
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - List
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             List
- *******************************/
- 
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Segment
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
  
  /*******************************
              Segment
@@ -2524,49 +2401,7 @@
    font-size: 1.71428571rem;
  }
  
- /*******************************
-          Theme Overrides
- *******************************/
  
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Step
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Plural
- *******************************/
- 
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*
-  * # Semantic - Menu
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Copyright 2015 Contributor
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Standard
- *******************************/
  
  /*--------------
        Menu
@@ -4842,46 +4677,6 @@
  }
  
  /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Message
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Message
- *******************************/
- 
- 
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-         Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Table
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
               Table
  *******************************/
  
@@ -6021,40 +5816,7 @@
    font-size: 1.1em;
  }
  
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Ad
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Copyright 2013 Contributors
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
  
- /*******************************
-          Advertisement
- *******************************/
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-     User Variable Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Item
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
  
  /*******************************
              Standard
@@ -7146,51 +6908,6 @@
    font-size: 1em;
  }
  
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-     User Variable Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Comment
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Standard
- *******************************/
- 
- /*--------------
-     Comments
- ---------------*/
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-     User Variable Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Item
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Standard
- *******************************/
  
  /*--------------
        Item
@@ -7692,49 +7409,7 @@
    }
  }
  
- /*******************************
-          Theme Overrides
- *******************************/
  
- /*******************************
-     User Variable Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Statistic
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-            Statistic
- *******************************/
- 
- /* Standalone */
- 
- 
- 
- /*  UTF Reference
- .check:before { content: '\e800'; }
- .dash:before  { content: '\e801'; }
- .plus:before { content: '\e802'; }
- */
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Dimmer
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
  
  /*******************************
              Dimmer
@@ -7972,48 +7647,7 @@
    background-color: rgba(255, 255, 255, 0.85);
  }
  
- /*******************************
-          Theme Overrides
- *******************************/
  
- /*******************************
-         User Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Dropdown
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Dropdown
- *******************************/
- 
- 
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-         User Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Sidebar
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Sidebar
- *******************************/
  
  /* Sidebar Menu */
  
@@ -8679,45 +8313,6 @@
    transform: scale(0.75);
  }
  
- /*******************************
-          Theme Overrides
- *******************************/
- 
- /*******************************
-          Site Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Sticky
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
- 
- /*******************************
-             Sticky
- *******************************/
- 
- 
- 
- /*******************************
-          Tab Overrides
- *******************************/
- 
- /*******************************
-         User Overrides
- *******************************/
- /*!
-  * # Semantic UI 2.3.1 - Transition
-  * http://github.com/semantic-org/semantic-ui/
-  *
-  *
-  * Released under the MIT license
-  * http://opensource.org/licenses/MIT
-  *
-  */
  
  /*******************************
            Transitions
@@ -11058,4 +10653,3 @@
  /*******************************
           Site Overrides
  *******************************/
- 
