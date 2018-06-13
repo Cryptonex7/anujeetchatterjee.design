@@ -154,6 +154,8 @@
         width: 100%;
         margin-left: 0;
         margin-top: 10px;
+        filter: drop-shadow(4px 4px 3px var(--ac-blue-dark));
+    
     }
     .about-content {
         text-align: center;

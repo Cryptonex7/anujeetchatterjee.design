@@ -78,7 +78,7 @@
         padding-left: 2rem;
         padding-top: 0.3rem;
         width: 100%;
-        filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
+        filter: drop-shadow(4px 4px 3px var(--ac-blue-dark));
         
     }
 
