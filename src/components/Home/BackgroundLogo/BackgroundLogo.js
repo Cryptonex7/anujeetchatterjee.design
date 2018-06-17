@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '../../assets/logo.svg';
-import '../../css/BackgroundLogo.css';
+import logo from '../../../assets/logo.svg';
+import '../../../css/BackgroundLogo.css';
 
 const BackgroundLogo = () => {
     return(

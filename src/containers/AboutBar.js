@@ -1,6 +1,6 @@
 import React, {Component} from'react';
-import AboutText from '../components/AboutBar/AboutText'
-import SocialLinks from '../components/AboutBar/SocialLinks'
+import AboutText from '../components/Home/AboutBar/AboutText'
+import SocialLinks from '../components/Home/AboutBar/SocialLinks'
 
 class AboutBar extends Component {
 

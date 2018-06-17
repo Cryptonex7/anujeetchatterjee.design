@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../css/NavBar.css';
+import '../../../css/NavBar.css';
 
 
-const NavBar = () => {
+const NavBar = ({home, web, music}) => {
     return(
         <div className="nav ph5-ns">
           
@@ -12,9 +12,9 @@ const NavBar = () => {
           
           
           <div className="link-container v-mid">
-            <a className="link dim mr4-ns"  id='services'   href="" title="About">Services</a>
-            <a className="link dim mr4-ns"  id='blog'       href="" title="Store">Blog</a>
-            <a className="link dim"         id='joinus'     href="" title="Contact">Join Us</a>
+            <a className="link dim mr4-ns"  id='services'   onClick={home} >Home</a>
+            <a className="link dim mr4-ns"  id='blog'       onClick={web} >Web Design</a>
+            <a className="link dim"         id='joinus'     onClick={music} >Music</a>
           </div>
         </div>
 
