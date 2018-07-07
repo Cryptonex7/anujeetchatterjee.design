@@ -12,9 +12,9 @@ const NavBar = ({home, web, music}) => {
           
           
           <div className="link-container v-mid">
-            <a className="link dim mr4-ns"  id='services'   onClick={home} >Home</a>
-            <a className="link dim mr4-ns"  id='blog'       onClick={web} >Web Design</a>
-            <a className="link dim"         id='joinus'     onClick={music} >Music</a>
+            <a className="link dim mr4-ns nav-active"  id='home'       onClick={home} >Home</a>
+            <a className="link dim mr4-ns"  id='web'        onClick={web} >Web Design</a>
+            <a className="link dim"         id='music'      onClick={music} >Music</a>
           </div>
         </div>
 

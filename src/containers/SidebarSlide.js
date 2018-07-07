@@ -43,6 +43,43 @@ class SidebarSlide extends Component {
 		this.setState({page: 'web'})
 	}
 
+	navChangePageHome = ()=> {
+		this.setState({page: 'home'})
+	
+		let x = document.getElementById("home");
+		let y = document.getElementById("music");
+		let z = document.getElementById("web");
+		
+		x.classList.add("nav-active");
+		y.classList.remove("nav-active");
+		z.classList.remove("nav-active");
+	}
+
+	navChangePageMusic = ()=> {
+		this.setState({page: 'music'})
+		
+		let x = document.getElementById("music");
+		let y = document.getElementById("web");
+		let z = document.getElementById("home");
+		
+		x.classList.add("nav-active");
+		y.classList.remove("nav-active");
+		z.classList.remove("nav-active");
+	}
+	
+	navChangePageWeb = ()=> {
+		this.setState({page: 'web'})
+		let x = document.getElementById("web");
+		let y = document.getElementById("music");
+		let z = document.getElementById("home");
+		
+		x.classList.add("nav-active");
+		y.classList.remove("nav-active");
+		z.classList.remove("nav-active");
+		
+	}
+
+
 	PAGE_STATES = {
 		home: <MainContainer />,
 		music: <Music />,
@@ -58,7 +95,7 @@ class SidebarSlide extends Component {
 			<div>
 
 
-				<NavBar home = {this.changePageHome} web = {this.changePageWeb} music = {this.changePageMusic}/>
+				<NavBar home = {this.navChangePageHome} web = {this.navChangePageWeb} music = {this.navChangePageMusic}/>
 
 				<Sidebar.Pushable as={Segment}>
 
