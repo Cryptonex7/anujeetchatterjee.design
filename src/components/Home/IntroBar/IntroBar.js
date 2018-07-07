@@ -1,4 +1,5 @@
 import React from'react';
+import Subscribe from '../Subscribe/Subscribe';
 
 const IntroBar =() =>{
     return(
@@ -13,8 +14,10 @@ const IntroBar =() =>{
                         <h3>Creative &nbsp;<span className="red-text">Artist</span></h3>
                         <p>A UI/UX fanatic, implementing design fundamentals into real life situations - whenever and wherever possible.</p>
                     </div>
-                            
                 </div>
+                <br/>
+                <Subscribe/>   
+                    
             </div>
         </div>
     )

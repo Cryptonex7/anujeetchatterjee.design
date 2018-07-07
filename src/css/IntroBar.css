@@ -13,7 +13,7 @@
 }
 
 .intro-container{
-    margin-top: 300px;
+    margin-top: 220px;
     z-index: 10;
     position: fixed;
     margin-left: 40px;
@@ -43,6 +43,8 @@
 .intro-content p {
     color: #aaa;
 }
+
+
 
 @media only screen and (max-width: 1580px) {
     .-intro h1 {

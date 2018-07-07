@@ -4,6 +4,7 @@ import '../css/App.css';
 
 import '../css/AboutBar.css';
 import '../css/IntroBar.css';
+import '../css/Subscribe.css';
 
 
 class App extends Component {
