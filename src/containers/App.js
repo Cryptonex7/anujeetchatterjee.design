@@ -18,6 +18,12 @@ class App extends Component {
     this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
   }
 
+  componentDidMount () {
+    fetch('http://localhost:3001/')
+      .then(response => response.json())
+      .then(console.log)
+  }
+
   onSetSidebarOpen = (open) => {
     this.setState({sidebarOpen: open});
   }
