@@ -19,7 +19,7 @@ class App extends Component {
   }
 
   componentDidMount () {
-    fetch('http://localhost:3001/')
+    fetch('https://ac-server.herokuapp.com/')
       .then(response => response.json())
       .then(console.log)
   }
