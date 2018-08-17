@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
-import AboutBar from './AboutBar';
-import IntroBar from '../components/Home/IntroBar/IntroBar';
-import ThemeChanger from '../components/Home/ThemeChanger/ThemeChanger';
 import BackgroundLogo from '../components/Home/BackgroundLogo/BackgroundLogo';
-
+import StartButton from '../components/Home/StartButton/StartButton';
 
 
 
@@ -59,18 +56,14 @@ class MainContainer extends Component {
                 <div className="maincont">
                 {this.state.width > 1000
                 ?   <div>
-                        <IntroBar/>
-                        <AboutBar/>   
-                        <BackgroundLogo/>
-                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
-                        <br/>
+                        
+                        <BackgroundLogo/><br/>
+                        <StartButton/>
+                        
                     </div>
                 :
                     <div>
                         <BackgroundLogo/>
-                        <IntroBar/>
-                        <AboutBar/>   
-                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
                     </div>
                 }
                 </div>
