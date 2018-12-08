@@ -53,18 +53,14 @@ class MainContainer extends Component {
                 <div className="maincont">
                 {this.state.width > 1000
                 ?   <div>
-                        <IntroBar/>
-                        <AboutBar/>   
-                        <BackgroundLogo/>
-                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
-                        <br/>
+                        
+                        <BackgroundLogo/><br/>
+                        <StartButton/>
+                        
                     </div>
                 :
                     <div>
                         <BackgroundLogo/>
-                        <IntroBar/>
-                        <AboutBar/>   
-                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
                     </div>
                 }
                 </div>

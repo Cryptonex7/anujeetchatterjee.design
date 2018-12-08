@@ -1,0 +1,40 @@
+@import url(./variables.css);
+
+@keyframes glow-bkg {
+    0% {
+        filter: drop-shadow(0px 0px 1px var(--ac-white));
+    }
+    50% {
+        filter: drop-shadow(0px 0px 3px var(--ac-white));
+        
+    }
+    100% {
+        filter: drop-shadow(0px 0px 1px var(--ac-white));
+    }
+}
+@keyframes glow-bkg-mob {
+    0% {
+        filter: drop-shadow(0px 0px 3px var(--ac-white));
+    }
+    50% {
+        filter: drop-shadow(0px 0px 6px var(--ac-white));
+        
+    }
+    100% {
+        filter: drop-shadow(0px 0px 3px var(--ac-white));
+    }
+}
+
+#startbtn, button{
+    
+    padding: 10px 30px;
+    font-size: 20px;
+    animation: glow-bkg 6000ms ease-in-out infinite;
+    
+    vertical-align: middle;
+    border-radius: 10px;
+    background-color: var(--ac-primary);
+    color: var(--ac-white);
+    border: none;
+    outline: none;
+}
