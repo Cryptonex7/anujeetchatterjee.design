@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import AboutBar from './AboutBar';
-import IntroBar from '../components/Home/IntroBar/IntroBar';
-import ThemeChanger from '../components/Home/ThemeChanger/ThemeChanger';
-import BackgroundLogo from '../components/Home/BackgroundLogo/BackgroundLogo';
+import AboutBar from '../../components/Home/AboutBar/AboutBar';
+import IntroBar from '../../components/Home/IntroBar/IntroBar';
+import ThemeChanger from '../../components/Home/ThemeChanger/ThemeChanger';
+import BackgroundLogo from '../../components/Home/BackgroundLogo/BackgroundLogo';
 
 
 
 
+const x = document.getElementsByTagName("html")[0];
 
 class MainContainer extends Component {
 
@@ -33,29 +34,22 @@ class MainContainer extends Component {
 
     onColorChangeR =()=>{
         console.log("press");
-        let x = document.getElementsByTagName("html")[0];
         x.style.cssText = "--ac-primary: #BF0000" ;
         console.log(x.style);
     }
     onColorChangeG =()=>{
         console.log("press");
-        let x = document.getElementsByTagName("html")[0];
         x.style.cssText = "--ac-primary: #00BF00" ;
         console.log(x.style);
     }
     onColorChangeB =()=>{
         console.log("press");
-        let x = document.getElementsByTagName("html")[0];
         x.style.cssText = "--ac-primary: #0000BF" ;
         console.log(x.style);
     }
     
-
     render(){
-
-        
         return(
-            
                 <div className="maincont">
                 {this.state.width > 1000
                 ?   <div>
@@ -74,8 +68,6 @@ class MainContainer extends Component {
                     </div>
                 }
                 </div>
-            
-            
         );
     }
     componentWillUnmount() {

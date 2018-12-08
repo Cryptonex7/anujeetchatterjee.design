@@ -1,45 +1,44 @@
 import React, { Component } from 'react';
-import SidebarSlide from './SidebarSlide';
-import '../css/App.css';
+import { connect } from 'react-redux';
+import AppSlidable from './AppSlidable';
+import { setPage } from '../actions/actions';
+import { BrowserRouter } from 'react-router-dom';
 
+
+import '../css/App.css';
 import '../css/AboutBar.css';
 import '../css/IntroBar.css';
 import '../css/Subscribe.css';
 
+const mapStateToProps = state => {
+  return {
+    page: state.page
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    onPageChange: (page) => dispatch(setPage(page))
+  }
+}
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      sidebarOpen: false
-    }
-
-    this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
-  }
-
   componentDidMount () {
     fetch('https://ac-server.herokuapp.com/')
       .then(response => response.json())
-      .then(console.log)
+    
   }
-
-  onSetSidebarOpen = (open) => {
-    this.setState({sidebarOpen: open});
-  }
-
 
   render() {
-    
+		const { page, onPageChange } = this.props;
     return (
-      <div className="App">
-        <SidebarSlide className= "floatright"/>
-          {/* <div className="nav-container">
-            <Navbar onSetOpen={this.onSetSidebarOpen}/>
-          </div> */}
-      </div>
+      <BrowserRouter>
+        <div className="App">
+          <AppSlidable className= "floatright" page = {page} onPageChange = {onPageChange}/>
+        </div>
+      </BrowserRouter>
     );
   }
 }
 
-export default App;
+export default connect(mapStateToProps, mapDispatchToProps)(App);
