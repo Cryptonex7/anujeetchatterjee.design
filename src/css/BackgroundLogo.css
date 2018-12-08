@@ -3,38 +3,32 @@
 
 @keyframes glow-bkg {
     0% {
-        filter: drop-shadow(4px 4px 1px var(--ac-white));
+        filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
     }
     50% {
-        filter: drop-shadow(4px 4px 8px var(--ac-white));
+        filter: drop-shadow(8px 8px 8px var(--ac-blue));
         
     }
     100% {
-        filter: drop-shadow(4px 4px 1px var(--ac-white));
+        filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
     }
 }
 @keyframes glow-bkg-mob {
     0% {
-        filter: drop-shadow(4px 4px 0px var(--ac-white));
+        filter: drop-shadow(4px 4px 3px var(--ac-blue-dark));
     }
     50% {
-        filter: drop-shadow(4px 4px 6px var(--ac-white));
+        filter: drop-shadow(4px 4px 6px var(--ac-blue));
         
     }
     100% {
-        filter: drop-shadow(4px 4px 0px var(--ac-white));
+        filter: drop-shadow(4px 4px 3px var(--ac-blue-dark));
     }
 }
 
 .BackgroundLogo {
     animation: glow-bkg 6000ms ease-in-out infinite;
-    width: 20%;
-    margin: 2%;
-}
-
-.caption{
-    /* animation: glow-bkg 6000ms ease-in-out infinite; */
-    width: 70%;
+    width: 30%;
     margin: 2%;
 }
 

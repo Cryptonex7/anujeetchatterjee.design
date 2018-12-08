@@ -7,7 +7,6 @@ import BackgroundLogo from '../../components/Home/BackgroundLogo/BackgroundLogo'
 
 
 
-const x = document.getElementsByTagName("html")[0];
 
 class MainContainer extends Component {
 
@@ -34,36 +33,49 @@ class MainContainer extends Component {
 
     onColorChangeR =()=>{
         console.log("press");
+        let x = document.getElementsByTagName("html")[0];
         x.style.cssText = "--ac-primary: #BF0000" ;
         console.log(x.style);
     }
     onColorChangeG =()=>{
         console.log("press");
+        let x = document.getElementsByTagName("html")[0];
         x.style.cssText = "--ac-primary: #00BF00" ;
         console.log(x.style);
     }
     onColorChangeB =()=>{
         console.log("press");
+        let x = document.getElementsByTagName("html")[0];
         x.style.cssText = "--ac-primary: #0000BF" ;
         console.log(x.style);
     }
     
+
     render(){
+
+        
         return(
+            
                 <div className="maincont">
                 {this.state.width > 1000
                 ?   <div>
-                        
-                        <BackgroundLogo/><br/>
-                        <StartButton/>
-                        
+                        <IntroBar/>
+                        <AboutBar/>   
+                        <BackgroundLogo/>
+                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
+                        <br/>
                     </div>
                 :
                     <div>
                         <BackgroundLogo/>
+                        <IntroBar/>
+                        <AboutBar/>   
+                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
                     </div>
                 }
                 </div>
+            
+            
         );
     }
     componentWillUnmount() {

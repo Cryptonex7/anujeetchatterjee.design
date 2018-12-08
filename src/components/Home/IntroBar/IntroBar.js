@@ -1,5 +1,5 @@
 import React from'react';
-import Subscribe from '../../../containers/Home/Subscribe';
+import Subscribe from '../Subscribe/Subscribe';
 
 const IntroBar =() =>{
     return(
