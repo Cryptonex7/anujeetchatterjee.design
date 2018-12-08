@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import AboutBar from './AboutBar';
-import IntroBar from '../components/Home/IntroBar/IntroBar';
-import ThemeChanger from '../components/Home/ThemeChanger/ThemeChanger';
-import BackgroundLogo from '../components/Home/BackgroundLogo/BackgroundLogo';
+import AboutBar from '../../components/Home/AboutBar/AboutBar';
+import IntroBar from '../../components/Home/IntroBar/IntroBar';
+import ThemeChanger from '../../components/Home/ThemeChanger/ThemeChanger';
+import BackgroundLogo from '../../components/Home/BackgroundLogo/BackgroundLogo';
 
 
 

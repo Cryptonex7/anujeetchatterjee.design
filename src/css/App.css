@@ -73,3 +73,7 @@ body {
 a {
   text-decoration: none;
 }
+
+.tabs{
+  margin: 10px;
+}
