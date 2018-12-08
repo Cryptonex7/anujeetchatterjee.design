@@ -24,7 +24,7 @@ const mapDispatchToProps = (dispatch) => {
 
 class App extends Component {
   componentDidMount () {
-    fetch('https://ac-server.herokuapp.com/')
+    fetch('http://localhost:3001/')
       .then(response => response.json())
     
   }
