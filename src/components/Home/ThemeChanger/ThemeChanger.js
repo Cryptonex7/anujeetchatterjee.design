@@ -2,21 +2,36 @@ import React from 'react';
 import '../../../css/ThemeChanger.css';
 import '../../../css/NavBar.css';
 
+const onColorChange = (clr) => {
+    let x = document.getElementsByTagName("html")[0];
+    switch(clr){
+        case 'red': 
+            x.style.cssText = "--ac-primary: #BF0000" ;
+            break;
+        case 'green': 
+            x.style.cssText = "--ac-primary: #00BF00" ;
+            break;
+        case 'blue': 
+            x.style.cssText = "--ac-primary: #0000BF" ;
+            break;
+        default:
+    }
+}
 
 
-const ThemeChanger = ({onClickR, onClickG, onClickB}) => {
+const ThemeChanger = () => {
     return(
         <div className="">
             
             <div className="bottom v-mid">
-                <div id="red" onClick={()=> onClickR()}>
-                    <a onClick={()=> onClickR()} className="link dim mr3 mr4-ns"    id="" >Red</a>
+                <div id="red" onClick={()=>onColorChange('red')}>
+                    <a onClick={()=>onColorChange('red')} className="link dim mr3 mr4-ns"    id="" >Red</a>
                 </div>
-                <div id="green" onClick={()=> onClickG()}>
-                    <a onClick={()=> onClickG()} className="link dim mr3 mr4-ns"    id="" >Green</a>
+                <div id="green" onClick={()=> onColorChange('green')}>
+                    <a onClick={()=> onColorChange('green')} className="link dim mr3 mr4-ns"    id="" >Green</a>
                 </div>
-                <div id="blue" onClick={()=> onClickB()}>
-                    <a onClick={()=> onClickB()} className="link dim "              id="" >Blue</a>
+                <div id="blue" onClick={()=> onColorChange('blue')}>
+                    <a onClick={()=> onColorChange('blue')} className="link dim "              id="" >Blue</a>
                 </div>
             </div>
             <div id="click">

@@ -10,7 +10,7 @@ const NavBar = ({navPage}) => {
         <div className="nav ph5-ns">
           
           <div className="page-title v-mid">
-            #<span className="gray-text">September</span>the<span className="red-text">10th</span>
+            #<span className="gray-text">the</span>Grand<span className="red-text">Portfolio</span>
           </div>
           
           

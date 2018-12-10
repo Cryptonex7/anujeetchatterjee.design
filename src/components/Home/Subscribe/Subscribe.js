@@ -29,6 +29,7 @@ class Subscribe extends Component{
             .then(data => {
                 console.log(data);
                 if(data !== '400') this.setState({subscribe: true});
+                else console.log("Email Registered")
             })
         }
         else

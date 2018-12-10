@@ -4,10 +4,6 @@ import IntroBar from '../../components/Home/IntroBar/IntroBar';
 import ThemeChanger from '../../components/Home/ThemeChanger/ThemeChanger';
 import BackgroundLogo from '../../components/Home/BackgroundLogo/BackgroundLogo';
 
-
-
-
-
 class MainContainer extends Component {
 
     constructor() {
@@ -19,50 +15,26 @@ class MainContainer extends Component {
         this.updateDimensions = this.updateDimensions.bind(this);
     }
     
-      
-      componentDidMount() {
-        console.log(this.state.height);
+    componentDidMount() {
         window.addEventListener("resize", this.updateDimensions);
-      }
-      updateDimensions() {
+    }
+
+    updateDimensions() {
         this.setState({
           height: window.innerHeight, 
           width: window.innerWidth
         });
-      }
-
-    onColorChangeR =()=>{
-        console.log("press");
-        let x = document.getElementsByTagName("html")[0];
-        x.style.cssText = "--ac-primary: #BF0000" ;
-        console.log(x.style);
     }
-    onColorChangeG =()=>{
-        console.log("press");
-        let x = document.getElementsByTagName("html")[0];
-        x.style.cssText = "--ac-primary: #00BF00" ;
-        console.log(x.style);
-    }
-    onColorChangeB =()=>{
-        console.log("press");
-        let x = document.getElementsByTagName("html")[0];
-        x.style.cssText = "--ac-primary: #0000BF" ;
-        console.log(x.style);
-    }
-    
 
     render(){
-
-        
         return(
-            
                 <div className="maincont">
                 {this.state.width > 1000
                 ?   <div>
                         <IntroBar/>
                         <AboutBar/>   
                         <BackgroundLogo/>
-                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
+                        <ThemeChanger/>
                         <br/>
                     </div>
                 :
@@ -70,23 +42,15 @@ class MainContainer extends Component {
                         <BackgroundLogo/>
                         <IntroBar/>
                         <AboutBar/>   
-                        <ThemeChanger onClickR={this.onColorChangeR} onClickG={this.onColorChangeG} onClickB={this.onColorChangeB}/>
+                        <ThemeChanger/>
                     </div>
                 }
                 </div>
-            
-            
         );
     }
     componentWillUnmount() {
         window.removeEventListener("resize", this.updateDimensions);
     }
-   
 }
 
 export default MainContainer;
-
-
-
-    
-    
