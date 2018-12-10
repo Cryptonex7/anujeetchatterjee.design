@@ -29,7 +29,7 @@ class MainContainer extends Component {
     render(){
         return(
                 <div className="maincont">
-                {this.state.width > 1000
+                {this.state.width > 1030
                 ?   <div>
                         <IntroBar/>
                         <AboutBar/>   

@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import Router from '../Router'
 import { NavLink } from 'react-router-dom'
-import { HOME, WEB, MUSIC } from "../constants";
+import { ROOT, WEB, MUSIC } from "../constants";
 
 import SideButton from '../components/Home/SideButton/SideButton';
 import NavBar from '../components/Home/NavBar/NavBar';
 import { Sidebar, Segment, Menu} from 'semantic-ui-react'
-// import '../css/semantic.css';
 import '../css/Slider.css';
 import '../css/App.css';
 import '../css/svg.css';
@@ -32,26 +31,26 @@ class AppSlidable extends Component {
 
 	render() {
 		const { visible } = this.state
-		const { page, onPageChange } = this.props;
+		const { onPageChange } = this.props;
 		return (
 			<div>
 				<NavBar navPage = {onPageChange}/>
 				<Sidebar.Pushable as={Segment}>
 					<Sidebar as={Menu} animation='slide along' width='thin' visible={visible} icon='labeled' vertical inverted>
-					<NavLink to='/home' id={HOME} className = 'tabs' onClick={()=> onPageChange(HOME)}>
+					<NavLink exact to='/anujeetchatterjee.design/' id={ROOT} className = 'tabs' onClick={()=> onPageChange(ROOT)}>
 							<div>	Home</div>
 						</NavLink>
-						<NavLink to='/web'  id={WEB} className = 'tabs' onClick={()=> onPageChange(WEB)}>
+						<NavLink to='/anujeetchatterjee.design/web'  id={WEB} className = 'tabs' onClick={()=> onPageChange(WEB)}>
 							<div>	Web Design</div>
 						</NavLink>
-						<NavLink to='/music' id={MUSIC} className = 'tabs' onClick={()=> onPageChange(MUSIC)}>
+						<NavLink to='/anujeetchatterjee.design/music' id={MUSIC} className = 'tabs' onClick={()=> onPageChange(MUSIC)}>
 							<div>Music</div>
 						</NavLink>
 					</Sidebar>
 					<Sidebar.Pusher>
 						<Segment basic>
 							<SideButton visibilityFunction= {this.toggleVisibility}/>
-								<Router page = {page}/>
+								<Router/>
 						</Segment>
 					</Sidebar.Pusher>
 				</Sidebar.Pushable>

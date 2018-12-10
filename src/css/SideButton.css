@@ -4,6 +4,8 @@
     float: left;
     z-index: 2;
      
+    padding-top: 22%;
+    padding-bottom: 22%;
     /* text-orientation: sideways-right; */
     /* writing-mode: vertical-rl; */
 }
@@ -16,7 +18,7 @@
 }
   
 
-@media(max-width: 1580px) {
+@media(max-width: 15800px) {
     .side-toggle {
         padding-top: 22%;
         padding-bottom: 22%;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom'
-import { HOME, WEB, MUSIC } from "../../../constants";
+import { ROOT, WEB, MUSIC } from "../../../constants";
 
 import '../../../css/NavBar.css';
 
@@ -15,9 +15,9 @@ const NavBar = ({navPage}) => {
           
           
           <div className="link-container v-mid">
-            <NavLink to='/home'   className="link dim mr4-ns"  id={HOME}  activeClassName="nav-active"      onClick={()=> navPage(HOME)} >Home</NavLink>
-            <NavLink to='/web'    className="link dim mr4-ns"  id={WEB}   activeClassName="nav-active"      onClick={()=> navPage(WEB)} >Web Design</NavLink>
-            <NavLink to='/music'  className="link dim"         id={MUSIC} activeClassName="nav-active"      onClick={()=> navPage(MUSIC)} >Music</NavLink>
+            <NavLink exact to='/anujeetchatterjee.design/'   className="link dim mr4-ns"  id={ROOT}  activeClassName="nav-active"      onClick={()=> navPage(ROOT)} >Home</NavLink>
+            <NavLink to='/anujeetchatterjee.design/web'    className="link dim mr4-ns"  id={WEB}   activeClassName="nav-active"      onClick={()=> navPage(WEB)} >Web Design</NavLink>
+            <NavLink to='/anujeetchatterjee.design/music'  className="link dim"         id={MUSIC} activeClassName="nav-active"      onClick={()=> navPage(MUSIC)} >Music</NavLink>
 
           </div>
         </div>

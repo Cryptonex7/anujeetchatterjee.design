@@ -30,8 +30,8 @@
     padding-right: 0;
     z-index: 10;
     position: fixed;
-    margin-left: 18%;
-    width: 300px;
+    margin-left: 25%;
+    width: 17%;
     filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
     
 }
@@ -71,6 +71,7 @@
     fill-opacity: 0; 
     stroke-width: 2; 
     stroke: var(--ac-white);
+    width: 80px;
     display: inline-block;
 }
 .facebook {
@@ -118,7 +119,12 @@
 
 
 
-@media only screen and (max-width: 1580px) {
+@media only screen and (max-width: 1500px) {
+    .bar{
+        margin-left: 19%;
+    }
+}
+@media only screen and (max-width: 15800px) {
     .bar {
         width: 300px;
     }

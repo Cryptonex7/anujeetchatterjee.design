@@ -2,45 +2,23 @@ import React, { Suspense, lazy } from 'react';
 
 import { Switch, Route } from 'react-router-dom'
 
-const MainContainer = lazy(() => import('./containers/Home/MainContainer'));
-const WebDesign = lazy(() => import('./containers/WebDesign'));
-const Music = lazy(() => import('./containers/Music'));
+const MainContainer = lazy(() => import('./containers/Home/Home'));
+const WebDesign = lazy(() => import('./containers/Web/WebDesign'));
+const Music = lazy(() => import('./containers/Music/Music'));
 
-// import MainContainer from './containers/Home/MainContainer'
-// import WebDesign from './containers/WebDesign';
-// import Music from './containers/Music';
-
-const Router = ({page}) => (
+const Router = () => (
     <Suspense fallback = {<div>Loading...</div>}>
         <Switch>
-            {/* <Route
-                exact path="/home"
-                render={(routeProps) => (
-                <MainContainer {...routeProps} />
-                )}
-            />
             <Route
-                exact path="/web"
-                render={(routeProps) => (
-                <WebDesign {...routeProps}  />
-                )}
-            />
-            <Route
-                path="/music"
-                render={(routeProps) => (
-                        <Music {...routeProps} page={page}/>
-                )}
-            /> */}
-            <Route
-                exact path="/home"
+                exact path="/anujeetchatterjee.design/"
                 component={MainContainer}
             />
             <Route
-                exact path="/web"
+                path="/anujeetchatterjee.design/web"
                 component={WebDesign}
             />
             <Route
-                path="/music"
+                path="/anujeetchatterjee.design/music"
                 component={Music}
             />
         </Switch>

@@ -1,7 +1,10 @@
 @import url(./variables.css);
 
 
+.IntroBar:hover h1{
+    animation: shake 1600ms ease-in-out;
 
+}
 
 .-intro h1 {
     text-align: left;
@@ -12,7 +15,7 @@
 
 }
 
-.intro-container{
+.IntroBar{
     margin-top: 220px;
     z-index: 10;
     position: fixed;
@@ -46,7 +49,7 @@
 
 
 
-@media only screen and (max-width: 1580px) {
+@media only screen and (max-width: 15800px) {
     .-intro h1 {
         text-align: left;
         font-size: 2rem;
@@ -58,6 +61,18 @@
 }
 
 
+@media only screen and (max-width: 1500px) {
+    .-intro h1 {
+        font-size: 1.2rem;
+    }
+    .IntroBar{
+        margin-top: 50px;
+    }
+    .intro-bar {
+        width: 32.5%;
+    }
+}
+
 @media only screen and (max-width: 1030px) {
     .-intro h1 {
         text-align: center;
@@ -67,7 +82,7 @@
         
     
     }
-    .intro-container{
+    .IntroBar{
         margin-top: 0px;
         z-index: 10;
         position: relative;

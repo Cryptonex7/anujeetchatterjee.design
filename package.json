@@ -2,7 +2,7 @@
   "name": "anujeet-chatterjee-design",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://cryptonex7.github.io/anujeetchatterjee.design",
+  "homepage": "http://cryptonex7.github.io/anujeetchatterjee.design/",
   "dependencies": {
     "gsap": "^2.0.1",
     "react": "^16.6.3",

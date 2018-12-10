@@ -26,7 +26,7 @@ html {
 }
 
 
-@media(max-width: 1580px) {
+@media(max-width: 15800px) {
     html {
         font-size: 18px;
         line-height: 1.15;
@@ -44,6 +44,6 @@ html {
 @media(max-width: 800px) {
     html {
         line-height: 1.0;
-        font-size: 10px;
+        font-size: 12px;
     }
 }

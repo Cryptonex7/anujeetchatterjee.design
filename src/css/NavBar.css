@@ -17,7 +17,7 @@
 .link {
     text-decoration: none;
     transition: color .15s ease-in;
-    color: #4d4d4f;
+    color: #b1b1b1;
     font-size: .875rem;
     display: inline-block;
 }
@@ -59,6 +59,7 @@
 
 .nav-active{
     color : var(--ac-primary);
+    transform: scale(1.1);;
 }
 
 .nav{
