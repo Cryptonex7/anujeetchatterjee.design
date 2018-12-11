@@ -23,7 +23,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "%PUBLIC_URL%/index.html",
+  "start_url": "anujeetchatterjee.design/index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000"
