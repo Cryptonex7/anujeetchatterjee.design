@@ -47,7 +47,7 @@ a {
 }
 
 #blue:hover {
-    background-color: var(--ac-blue);
+    background-color: var(--ac-signature-blue);
     transition: background-color 350ms,
                 transform 350ms;
     

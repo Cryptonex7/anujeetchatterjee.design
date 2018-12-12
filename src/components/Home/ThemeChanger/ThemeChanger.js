@@ -12,7 +12,7 @@ const onColorChange = (clr) => {
             x.style.cssText = "--ac-primary: #00BF00" ;
             break;
         case 'blue': 
-            x.style.cssText = "--ac-primary: #0000BF" ;
+            x.style.cssText = "--ac-primary: #4299ff" ;
             break;
         default:
     }

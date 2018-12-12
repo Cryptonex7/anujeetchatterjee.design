@@ -32,7 +32,7 @@
     position: fixed;
     margin-left: 25%;
     width: 17%;
-    filter: drop-shadow(8px 8px 5px var(--ac-blue-dark));
+    filter: drop-shadow(8px 8px 5px var(--ac-primary));
     
 }
 

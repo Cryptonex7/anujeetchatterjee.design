@@ -1,5 +1,5 @@
 html {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 1.15;
     
 
@@ -16,10 +16,11 @@ html {
     --ac-green: #00BF00;
     --ac-green-dark: #003700;
 
+    --ac-signature-blue: #4299ff;
 
     --ac-text-gray: #71757a;
 
-    --ac-primary: #4299ff;
+    --ac-primary: #bf0000;
 
     --rgb-red: #ff0000;
     --rgb-blue: #0000ff;
@@ -28,7 +29,7 @@ html {
 
 @media(max-width: 15800px) {
     html {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 1.15;
         
     }
@@ -44,6 +45,6 @@ html {
 @media(max-width: 800px) {
     html {
         line-height: 1.0;
-        font-size: 12px;
+        font-size: 14px;
     }
 }
