@@ -23,15 +23,15 @@ const ThemeChanger = () => {
     return(
         <div className="">
             
-            <div className="bottom v-mid">
+            <div className="bottom ">
                 <div id="red" onClick={()=>onColorChange('red')}>
-                    <a onClick={()=>onColorChange('red')} className="link dim mr3 mr4-ns"    id="" >Red</a>
+                    <a onClick={()=>onColorChange('red')} className="tc-link"    id="" >Red</a>
                 </div>
                 <div id="green" onClick={()=> onColorChange('green')}>
-                    <a onClick={()=> onColorChange('green')} className="link dim mr3 mr4-ns"    id="" >Green</a>
+                    <a onClick={()=> onColorChange('green')} className="tc-link"    id="" >Green</a>
                 </div>
                 <div id="blue" onClick={()=> onColorChange('blue')}>
-                    <a onClick={()=> onColorChange('blue')} className="link dim "              id="" >Blue</a>
+                    <a onClick={()=> onColorChange('blue')} className="tc-link"    id="" >Blue</a>
                 </div>
             </div>
             <div id="click">

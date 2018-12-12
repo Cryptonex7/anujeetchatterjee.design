@@ -11,7 +11,7 @@ a {
     color: var(--ac-white);
     margin: auto;
     font-size: 1em;
-    
+    vertical-align: middle;
     
 }
 
@@ -51,6 +51,16 @@ a {
     transition: background-color 350ms,
                 transform 350ms;
     
+}
+
+.tc-link{
+    vertical-align: middle;
+    text-decoration: none;
+    transition: color .15s ease-in;
+    color: #b1b1b1;
+    font-size: 0.9rem;
+    display: inline-block;
+    padding-bottom: 0.2rem;
 }
 
 @media only screen and (max-width: 1030px) {
