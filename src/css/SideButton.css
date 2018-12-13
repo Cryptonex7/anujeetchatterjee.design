@@ -1,34 +1,25 @@
 .side-toggle{
     background-color: var(--ac-gray);
-    width: 40px;
-    float: left;
-    z-index: 2;
-     
+    height: 40px;
+    width: 40px;;
+    
+/*      
     padding-top: 22%;
-    padding-bottom: 22%;
+    padding-bottom: 22%; */
     /* text-orientation: sideways-right; */
     /* writing-mode: vertical-rl; */
 }
 
 .nav-btn{
-    width: 40px;
-    margin: auto;
-
+    width: 100%;
 
 }
   
-
-@media(max-width: 15800px) {
-    .side-toggle {
-        padding-top: 22%;
-        padding-bottom: 22%;
-    }
+.SideButton{
+    width: 15%;
+    align-self: flex-end;
 }
 
-
-@media(max-width: 1030px) {
-    .side-toggle {
-        padding-top: 0%;
-        padding-bottom: 0%;
-    }
+@media(max-width: 1250px) {
+   
 }

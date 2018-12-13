@@ -4,7 +4,9 @@ import IntroBar from '../../components/Home/IntroBar/IntroBar';
 import ThemeChanger from '../../components/Home/ThemeChanger/ThemeChanger';
 import BackgroundLogo from '../../components/Home/BackgroundLogo/BackgroundLogo';
 
-class MainContainer extends Component {
+import '../../css/Home.css';
+
+class Home extends Component {
 
     constructor() {
         super();
@@ -28,20 +30,20 @@ class MainContainer extends Component {
 
     render(){
         return(
-                <div className="maincont">
-                {this.state.width > 1030
-                ?   <div>
+                <div>
+                {this.state.width > 1250
+                ?   <div className="home-container">
                         <IntroBar/>
-                        <AboutBar/>   
+                        <AboutBar/>
                         <BackgroundLogo/>
                         <ThemeChanger/>
                         <br/>
                     </div>
                 :
-                    <div>
+                    <div className="home-container">
                         <BackgroundLogo/>
                         <IntroBar/>
-                        <AboutBar/>   
+                        <AboutBar/>
                         <ThemeChanger/>
                     </div>
                 }
@@ -53,4 +55,4 @@ class MainContainer extends Component {
     }
 }
 
-export default MainContainer;
+export default Home;

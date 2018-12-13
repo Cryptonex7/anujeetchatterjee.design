@@ -4,11 +4,10 @@ import { NavLink } from 'react-router-dom'
 import { ROOT, WEB, MUSIC } from "../constants";
 
 import SideButton from '../components/Home/SideButton/SideButton';
-import NavBar from '../components/Home/NavBar/NavBar';
+import NavBarResp from '../components/Home/NavBar/NavBarResp';
 import { Sidebar, Segment, Menu} from 'semantic-ui-react'
 import '../css/Slider.css';
 import '../css/App.css';
-import '../css/svg.css';
 
 class AppSlidable extends Component {
 	state = { 	visible: false,
@@ -34,7 +33,7 @@ class AppSlidable extends Component {
 		const { onPageChange } = this.props;
 		return (
 			<div>
-				<NavBar navPage = {onPageChange}/>
+				<NavBarResp navPage = {onPageChange}/>
 				<Sidebar.Pushable as={Segment}>
 					<Sidebar as={Menu} animation='slide along' width='thin' visible={visible} icon='labeled' vertical inverted>
 					<NavLink exact to='/anujeetchatterjee.design/' id={ROOT} className = 'tabs' onClick={()=> onPageChange(ROOT)}>

@@ -8,18 +8,18 @@
 
 .-intro h1 {
     text-align: left;
-    font-size: 2.8rem;
+    font-size: 2rem;
     margin-left: 2rem;
     margin-bottom: 0.3rem;
-    
 
 }
 
 .IntroBar{
-    margin-top: 220px;
+    /* margin-top: 220px; */
     z-index: 10;
-    position: fixed;
-    margin-left: 40px;
+    /* position: fixed; */
+    
+    /* margin-left: 40px; */
     
 }
 
@@ -29,13 +29,15 @@
     display: block;
     padding-left: 2rem;
     padding-top: 0.3rem;
-    width: 52.5%;
+    width: 82%;
     filter: drop-shadow(8px 8px 5px var(--ac-primary));
+    margin: 0;
     
 }
 
 .intro-content{
     text-justify: distribute;
+    font-size: 0.9rem;
     text-align: left;
 }
 
@@ -47,20 +49,6 @@
     color: #aaa;
 }
 
-
-
-@media only screen and (max-width: 15800px) {
-    .-intro h1 {
-        text-align: left;
-        font-size: 2rem;
-        margin-left: 2rem;
-        margin-bottom: 0.3rem;
-        
-    
-    }
-}
-
-
 @media only screen and (max-width: 1500px) {
     .-intro h1 {
         font-size: 1.2rem;
@@ -69,15 +57,14 @@
         margin-top: 50px;
     }
     .intro-bar {
-        width: 32.5%;
     }
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1250px) {
     .-intro h1 {
         text-align: center;
-        font-size: 2.4rem;
-        margin-left: 1.5rem;
+        font-size: 1.8rem;
+        margin: auto;
         margin-bottom: 0.25rem;
         
     
@@ -95,7 +82,7 @@
         padding-left: 2rem;
         padding-top: 0.3rem;
         width: 100%;
-        filter: drop-shadow(4px 4px 3px var(--ac-blue-dark));
+        filter: drop-shadow(4px 4px 3px var(--ac-primary));
         
     }
 

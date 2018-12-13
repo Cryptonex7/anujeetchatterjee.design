@@ -16,7 +16,7 @@ a {
 }
 
 #red, #green, #blue {
-    margin: 10px;
+    margin: 0px 010px 5px 10px;
 
     background-color: var(--ac-primary);
     padding: 0.6em;
@@ -63,7 +63,7 @@ a {
     padding-bottom: 0.2rem;
 }
 
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1250px) {
     #red:hover, #green:hover, #blue:hover {
         transform: none;
     }
@@ -87,5 +87,7 @@ a {
         transition: none;
         
     }
-    
+    .bottom{
+        margin-top: 20px;
+    }
 }

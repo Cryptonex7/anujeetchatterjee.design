@@ -3,12 +3,12 @@
 @keyframes rotate-1 {
     
     0% {
-        transform-origin: 40% center;
+        transform-origin: center 60%;
         transform: rotate(0deg); 
         
     }
     100% {
-        transform-origin: 40% center;
+        transform-origin: center 60%;
         transform: rotate(180deg);
     }
 }
@@ -16,12 +16,25 @@
 @keyframes rotate-2 {
     
     0% {
-        transform-origin: 60% center;
+        transform-origin: center 50%;
         transform: rotate(0deg); 
         
     }
     100% {
-        transform-origin: 60% center;
+        transform-origin: center 50%;
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotate-3 {
+    
+    0% {
+        transform-origin: center 25%;
+        transform: rotate(0deg); 
+        
+    }
+    100% {
+        transform-origin: center 40%;
         transform: rotate(180deg);
     }
 }
@@ -60,6 +73,13 @@
     animation-delay: 250ms;
 }
 
+.bar-3{
+    fill: var(--ac-white);
+    animation: scaling 2000ms ease-in-out;
+    animation-iteration-count: infinite;
+    animation-delay: 500ms;
+}
+
 .rotate-1{
     animation: rotate-1 400ms ease-in-out;
     animation-fill-mode: forwards;
@@ -70,4 +90,10 @@
     animation: rotate-2 400ms ease-in-out;
     animation-fill-mode: forwards;
     animation-delay: 100ms
+}
+
+.rotate-3{
+    animation: rotate-3 400ms ease-in-out;
+    animation-fill-mode: forwards;
+    animation-delay: 200ms
 }

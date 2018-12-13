@@ -2,7 +2,7 @@ import React, { Suspense, lazy } from 'react';
 
 import { Switch, Route } from 'react-router-dom'
 
-const MainContainer = lazy(() => import('./containers/Home/Home'));
+const Home = lazy(() => import('./containers/Home/Home'));
 const WebDesign = lazy(() => import('./containers/Web/WebDesign'));
 const Music = lazy(() => import('./containers/Music/Music'));
 
@@ -11,7 +11,7 @@ const Router = () => (
         <Switch>
             <Route
                 exact path="/anujeetchatterjee.design/"
-                component={MainContainer}
+                component={Home}
             />
             <Route
                 path="/anujeetchatterjee.design/web"

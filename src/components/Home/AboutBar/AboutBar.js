@@ -4,7 +4,7 @@ import SocialLinks from './SocialLinks'
 
 const AboutBar = () => {
     return(
-        <div className="AboutBar">
+        <div className="AboutBar" id = 'about-card'>
                 <div className="bar">
                     <AboutText/>
                     <SocialLinks/>

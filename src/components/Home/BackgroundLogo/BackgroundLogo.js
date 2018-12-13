@@ -4,15 +4,13 @@ import '../../../css/BackgroundLogo.css';
 
 const BackgroundLogo = () => {
     return(
-        <div className="">
+        <div className="" id = 'background-plate'>
             <img className = 'BackgroundLogo' alt='logo' src = {logo}/>
             <p id='welcome'>Welcome</p>
                 
             <div className="intro">
             <p id='intro'>to the Grand</p><p id='portfolio'> Portfolio!</p>
             </div>
-            
-            <br/>
         </div>
 
     );

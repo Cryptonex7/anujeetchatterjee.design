@@ -3,8 +3,8 @@ import Subscribe from '../Subscribe/Subscribe';
 
 const IntroBar =() =>{
     return(
-        <div className="IntroBar">
-            <div className="intro-container">
+        <div className="IntroBar" id= "intro-card">
+            <div className="intro-container" >
                 <div className="-intro">
                     <h1>Anujeet<span className="gray-text">Chatterjee</span>.<span className="red-text">Design</span></h1>
                 </div>

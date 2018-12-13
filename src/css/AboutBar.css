@@ -30,8 +30,8 @@
     padding-right: 0;
     z-index: 10;
     position: fixed;
-    margin-left: 25%;
-    width: 17%;
+    /* margin-left: 25%; */
+    width: 300px;
     filter: drop-shadow(8px 8px 5px var(--ac-primary));
     
 }
@@ -119,27 +119,8 @@
 
 
 
-@media only screen and (max-width: 1500px) {
-    .bar{
-        margin-left: 19%;
-    }
-}
-@media only screen and (max-width: 15800px) {
-    .bar {
-        width: 300px;
-    }
-    .social-icons {
-        width: 80px;
-        
-    }
-    .about h1 {
-        writing-mode: vertical-rl;
-        text-orientation: sideways;
-    }
-}
 
-
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 1250px) {
     .bar {
         width: 200px;
     }
@@ -160,7 +141,7 @@
         width: 100%;
         margin-left: 0;
         margin-top: 10px;
-        filter: drop-shadow(4px 4px 3px var(--ac-blue-dark));
+        filter: drop-shadow(4px 4px 3px var(--ac-primary));
     
     }
     .about-content {

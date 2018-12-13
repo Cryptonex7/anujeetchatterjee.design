@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import AppSlidable from './AppSlidable';
+import NavBarResp from '../components/Home/NavBar/NavBarResp'
+import Router from '../Router'
 import { setPage } from '../actions/actions';
 import { BrowserRouter } from 'react-router-dom';
 
@@ -34,7 +36,10 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App">
-          <AppSlidable className= "floatright" page = {page} onPageChange = {onPageChange}/>
+				<NavBarResp navPage = {onPageChange}/>
+        <Router/>
+          
+          {/* <AppSlidable className= "floatright" page = {page} onPageChange = {onPageChange}/> */}
         </div>
       </BrowserRouter>
     );

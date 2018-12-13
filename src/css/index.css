@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+
   font-family: sans-serif;
 }
 
@@ -10,3 +12,6 @@ body {
   width: 1000px;
 }
 
+*{
+  text-decoration: none;
+}

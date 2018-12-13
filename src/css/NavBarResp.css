@@ -1,0 +1,90 @@
+.Navbar {
+    display: flex;
+    padding: 0.9rem;
+    color: white;
+    text-decoration: none;
+  }
+  .Navbar__Link {
+    padding-right: 2rem;
+
+  }
+  
+.page-title{
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  display: block;
+}
+  .linkStyles{
+    color: #b1b1b1;
+    padding: 0.7rem;
+    font-size: 1rem;
+
+  }
+  
+  .linkStyles:hover {
+    transition: all .35s ease-in;
+    background-color: var(--ac-gray);
+}
+
+  .linkStyles:active {
+      transition: color .15s ease-in;
+  }
+  .Navbar__Items {
+    display: flex;
+    text-decoration: none;
+  }
+  .Navbar__Items--right {
+    margin-left:auto;
+  }
+  .Navbar__Link-toggle {
+    display: none;
+  }
+
+  .nav-active{
+    color : var(--ac-primary);
+    transform: scale(1.1);;
+    background-color: var(--ac-dark-gray);
+    border-bottom-right-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
+  }
+  @media only screen and (max-width: 1250px) {
+    .Navbar__Items,
+    .Navbar {
+      flex-direction: column;
+    }
+  .Navbar__Items {
+      display:none;
+      text-align: right;
+      padding: 0.1rem 1.5rem 0.5rem 1.5rem;
+      background-color: var(--ac-dark-gray);
+
+    }
+    .Navbar{
+      background-color: var(--ac-gray);
+      padding: 0;
+    }
+    .Navbar__Link{
+      padding: 0.4rem 1rem;
+    }
+    .linkStyles{
+      font-size: 1rem;
+      padding: 0.4rem;
+    }
+    .page-title{
+      text-align: left;
+      font-size: 1.1rem;
+      padding: 0.75rem;
+    }
+  .Navbar__Items--right {
+      margin-left:0;
+    }
+  .ToggleShow {
+      display: flex;
+    }
+  .Navbar__Link-toggle {
+      align-self: flex-end;
+      display: initial;
+      position: absolute;
+      cursor: pointer;
+     } 
+  }

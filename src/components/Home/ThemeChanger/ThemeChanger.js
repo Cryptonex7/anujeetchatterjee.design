@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../../css/ThemeChanger.css';
-import '../../../css/NavBar.css';
 
 const onColorChange = (clr) => {
     let x = document.getElementsByTagName("html")[0];
@@ -21,9 +20,9 @@ const onColorChange = (clr) => {
 
 const ThemeChanger = () => {
     return(
-        <div className="">
+        <div id = 'theme-container'>
             
-            <div className="bottom ">
+            <div className="bottom " id = 'theme-container'>
                 <div id="red" onClick={()=>onColorChange('red')}>
                     <a onClick={()=>onColorChange('red')} className="tc-link"    id="" >Red</a>
                 </div>
