@@ -6,6 +6,7 @@ const BackgroundLogo = () => {
     return(
         <div className="" id = 'background-plate'>
             <img className = 'BackgroundLogo' alt='logo' src = {logo}/>
+            
             <p id='welcome'>Welcome</p>
                 
             <div className="intro">

@@ -44,6 +44,11 @@
         /* animation: glow-bkg-mob 6000ms ease-in-out infinite; */
         animation: none;
         filter: drop-shadow(0px 0px 6px var(--ac-red));
+        margin-bottom: 3%;
     
+    }
+
+    #welcome, #intro, #portfolio{
+        font-size: 1rem;
     }
 }

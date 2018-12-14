@@ -56,12 +56,15 @@
       display:none;
       text-align: right;
       padding: 0.1rem 1.5rem 0.5rem 1.5rem;
-      background-color: var(--ac-dark-gray);
+      background-color: var(--ac-dark-gray-translucent);
 
     }
     .Navbar{
-      background-color: var(--ac-gray);
+      background-color: var(--ac-gray-translucent);
       padding: 0;
+      position: sticky;
+      top: 0;
+      z-index: 100000;
     }
     .Navbar__Link{
       padding: 0.4rem 1rem;

@@ -121,9 +121,6 @@
 
 
 @media only screen and (max-width: 1250px) {
-    .bar {
-        width: 200px;
-    }
     .social-icons {
         width: 40px;
     }
@@ -135,16 +132,20 @@
         float: none;
     }
     .bar {
-        padding-right: 1rem;
+        margin:auto;
+        padding-right: 1em;
         position: relative;
         display: block;
-        width: 100%;
-        margin-left: 0;
+        width: 87%;
+        line-height: 5em;
         margin-top: 10px;
         filter: drop-shadow(4px 4px 3px var(--ac-primary));
     
     }
     .about-content {
+        line-height: 2em;
+        margin: auto;
+
         text-align: center;
     }
 }

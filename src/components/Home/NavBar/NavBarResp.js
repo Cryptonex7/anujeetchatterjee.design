@@ -36,26 +36,26 @@ class NavBar extends Component {
   render(){
     const { navPage }  = this.props;
     return(
-        <div class="Navbar">
-            <div class="Navbar__Link Navbar__Link-brand">
+        <div className="Navbar">
+            <div className="Navbar__Link Navbar__Link-brand">
                 <div className="page-title">
                     #<span className="gray-text">the</span>Grand<span className="red-text">Portfolio</span>
                 </div>
             </div>
-            <div class="Navbar__Link Navbar__Link-toggle">
+            <div className="Navbar__Link Navbar__Link-toggle">
                 <SideButton visibilityFunction={this.rotations}/>
             </div>
-            <nav class="Navbar__Items Navbar__Items--right" id="flex-container">
-                <div class="Navbar__Link">
+            <nav className="Navbar__Items Navbar__Items--right" id="flex-container">
+                <div className="Navbar__Link">
                     <NavLink exact to='/anujeetchatterjee.design/'  className="linkStyles"  id={ROOT}  activeClassName="nav-active"      onClick={()=> navPage(ROOT)} >Home</NavLink>
                 </div>
-                <div class="Navbar__Link">
+                <div className="Navbar__Link">
                     <NavLink to='/anujeetchatterjee.design/graphics'className="linkStyles"  id={DESIGN}activeClassName="nav-active"      onClick={()=> navPage(WEB)} >Graphic Design</NavLink>
                 </div>
-                <div class="Navbar__Link">
+                <div className="Navbar__Link">
                     <NavLink to='/anujeetchatterjee.design/web'     className="linkStyles"  id={WEB}   activeClassName="nav-active"      onClick={()=> navPage(WEB)} >Web Design</NavLink>
                 </div>
-                <div class="Navbar__Link">
+                <div className="Navbar__Link">
                     <NavLink to='/anujeetchatterjee.design/music'   className="linkStyles"         id={MUSIC} activeClassName="nav-active"      onClick={()=> navPage(MUSIC)} >Music</NavLink>
                 </div>
             </nav>
