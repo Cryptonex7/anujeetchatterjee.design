@@ -29,7 +29,9 @@
     font-size: 0.8rem;
 
 }
-
+.subscribe-text{
+    line-height: 1.2rem;
+}
 .sub-btn{
     margin: 10px;
     height: 40px;;
@@ -76,15 +78,14 @@
         background-color: var(--ac-gray);
         padding: 1rem;
         display: block;
-        padding-left: 0rem;
         padding-top: 0.3rem;
-        width: 90%;
+        width: 87%;
         margin:auto;
         filter: drop-shadow(4px 4px 3px var(--ac-primary));
         
     }
     .email-box, .sub-btn{
-        height: 25px;
+        height: 24px;
     }
     .sub-content{
         text-align: center;

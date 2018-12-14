@@ -11,8 +11,8 @@ const IntroBar =() =>{
                 <div className="intro-bar">
                     
                     <div className="intro-content">
-                        <h3>Creative &nbsp;<span className="red-text">Artist</span></h3>
-                        <p>A UI/UX fanatic, implementing design fundamentals into real life situations - whenever and wherever possible.</p>
+                        <h3>Creative&nbsp;<span className="red-text">Artist</span></h3>
+                        <p id='intro-text'>A UI/UX fanatic, implementing design fundamentals into real life situations - whenever and wherever possible.</p>
                     </div>
                 </div>
                 <br/>

@@ -10,7 +10,7 @@ const BackgroundLogo = () => {
             <p id='welcome'>Welcome</p>
                 
             <div className="intro">
-            <p id='intro'>to the Grand</p><p id='portfolio'> Portfolio!</p>
+            <p id='intro'>to the Grand</p><p id='portfolio'>&nbsp;Portfolio!</p>
             </div>
         </div>
 

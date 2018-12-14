@@ -35,6 +35,9 @@
     
 }
 
+#intro-text{
+    line-height: 1.2rem;
+}
 .intro-content{
     text-justify: distribute;
     font-size: 0.9rem;
