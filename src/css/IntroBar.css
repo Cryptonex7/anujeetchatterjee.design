@@ -1,11 +1,5 @@
 @import url(./variables.css);
 
-
-.IntroBar:hover h1{
-    animation: shake 1600ms ease-in-out;
-
-}
-
 .-intro h1 {
     text-align: left;
     font-size: 2rem;

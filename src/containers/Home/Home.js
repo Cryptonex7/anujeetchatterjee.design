@@ -8,30 +8,30 @@ import '../../css/Home.css';
 
 class Home extends Component {
 
-    constructor() {
-        super();
-        this.state = { 
-          height: window.innerHeight, 
-          width: window.innerWidth
-        };
-        this.updateDimensions = this.updateDimensions.bind(this);
-    }
+    // constructor() {
+    //     super();
+    //     this.state = { 
+    //       height: window.innerHeight, 
+    //       width: window.innerWidth
+    //     };
+    //     this.updateDimensions = this.updateDimensions.bind(this);
+    // }
     
-    componentDidMount() {
-        window.addEventListener("resize", this.updateDimensions);
-    }
+    // componentDidMount() {
+    //     window.addEventListener("resize", this.updateDimensions);
+    // }
 
-    updateDimensions() {
-        this.setState({
-          height: window.innerHeight, 
-          width: window.innerWidth
-        });
-    }
+    // updateDimensions() {
+    //     this.setState({
+    //       height: window.innerHeight, 
+    //       width: window.innerWidth
+    //     });
+    // }
 
     render(){
         return(
                 <div>
-                {this.state.width > 1250
+                {/* {this.state.width > 1250
                 ?   <div className="home-container">
                         <IntroBar/>
                         <AboutBar/>
@@ -39,20 +39,20 @@ class Home extends Component {
                         <ThemeChanger/>
                         <br/>
                     </div>
-                :
+                : */}
                     <div className="home-container">
                         <BackgroundLogo/>
                         <IntroBar/>
                         <AboutBar/>
                         <ThemeChanger/>
                     </div>
-                }
+                {/* } */}
                 </div>
         );
     }
-    componentWillUnmount() {
-        window.removeEventListener("resize", this.updateDimensions);
-    }
+    // componentWillUnmount() {
+    //     window.removeEventListener("resize", this.updateDimensions);
+    // }
 }
 
 export default Home;

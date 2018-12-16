@@ -123,6 +123,13 @@
 @media only screen and (max-width: 1250px) {
     .social-icons {
         width: 40px;
+        animation: none;
+    }
+
+    .social-icons:hover{
+        transition: none;
+        filter: none;
+        
     }
 
     .about h1 {

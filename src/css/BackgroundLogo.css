@@ -28,7 +28,7 @@
 
 .BackgroundLogo {
     animation: glow-bkg 6000ms ease-in-out infinite;
-    width: 50%;
+    width: 40%;
     margin: 6%;
     margin-bottom: 2%;
 }
