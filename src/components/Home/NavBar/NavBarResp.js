@@ -50,13 +50,13 @@ class NavBar extends Component {
                     <NavLink exact to='/anujeetchatterjee.design/'  className="linkStyles"  id={ROOT}  activeClassName="nav-active"      onClick={()=> navPage(ROOT)} >Home</NavLink>
                 </div>
                 <div className="Navbar__Link">
+                    <NavLink to='/anujeetchatterjee.design/music'   className="linkStyles"         id={MUSIC} activeClassName="nav-active"      onClick={()=> navPage(MUSIC)} >Music</NavLink>
+                </div>
+                <div className="Navbar__Link">
                     <NavLink to='/anujeetchatterjee.design/graphics'className="linkStyles"  id={DESIGN}activeClassName="nav-active"      onClick={()=> navPage(WEB)} >Graphic Design</NavLink>
                 </div>
                 <div className="Navbar__Link">
                     <NavLink to='/anujeetchatterjee.design/web'     className="linkStyles"  id={WEB}   activeClassName="nav-active"      onClick={()=> navPage(WEB)} >Web Design</NavLink>
-                </div>
-                <div className="Navbar__Link">
-                    <NavLink to='/anujeetchatterjee.design/music'   className="linkStyles"         id={MUSIC} activeClassName="nav-active"      onClick={()=> navPage(MUSIC)} >Music</NavLink>
                 </div>
             </nav>
         </div>

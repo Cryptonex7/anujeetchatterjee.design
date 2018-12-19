@@ -5,6 +5,7 @@ import { Switch, Route } from 'react-router-dom'
 const Home = lazy(() => import('./containers/Home/Home'));
 const WebDesign = lazy(() => import('./containers/Web/WebDesign'));
 const Music = lazy(() => import('./containers/Music/Music'));
+const Design = lazy(() => import('./containers/Design/Design'));
 
 const Router = () => (
     <Suspense fallback = {<div>Loading...</div>}>
@@ -20,6 +21,10 @@ const Router = () => (
             <Route
                 path="/anujeetchatterjee.design/music"
                 component={Music}
+            />
+            <Route
+                path="/anujeetchatterjee.design/graphics"
+                component={Design}
             />
         </Switch>
     </Suspense>
