@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{80:function(e,n,t){"use strict";t.r(n);var a=t(8),c=t(9),r=t(11),i=t(10),u=t(12),o=t(0),s=t.n(o),l=function(e){function n(){return Object(a.a)(this,n),Object(r.a)(this,Object(i.a)(n).apply(this,arguments))}return Object(u.a)(n,e),Object(c.a)(n,[{key:"render",value:function(){return s.a.createElement("div",{className:"maincont"},s.a.createElement("h1",null," WEB DESIGN PAGE "))}}]),n}(o.Component);n.default=l}}]);
+//# sourceMappingURL=2.10085759.chunk.js.map
