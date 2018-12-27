@@ -30,7 +30,7 @@ class Subscribe extends Component{
                 console.log(data);
                 if(data == '200') 
                     this.setState({subscribe: "true"});
-                else if (data.detail === "Key (email)=(anujeet99@gmail.com) already exists.")
+                else if (data.detail === `Key (email)=(${this.state.email}) already exists.`)
                     this.setState({subscribe: "exists"})
                     //console.log("Email Registered");
                 else this.setState({subscribe: "err"})
