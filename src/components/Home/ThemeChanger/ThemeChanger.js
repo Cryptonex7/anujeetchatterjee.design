@@ -24,13 +24,13 @@ const ThemeChanger = () => {
             
             <div className="bottom " id = 'theme-container'>
                 <div id="red" onClick={()=>onColorChange('red')}>
-                    <a onClick={()=>onColorChange('red')} className="tc-link"    id="" >Red</a>
+                    <div onClick={()=>onColorChange('red')} className="tc-link"    id="" >Red</div>
                 </div>
                 <div id="green" onClick={()=> onColorChange('green')}>
-                    <a onClick={()=> onColorChange('green')} className="tc-link"    id="" >Green</a>
+                    <div onClick={()=> onColorChange('green')} className="tc-link"    id="" >Green</div>
                 </div>
                 <div id="blue" onClick={()=> onColorChange('blue')}>
-                    <a onClick={()=> onColorChange('blue')} className="tc-link"    id="" >Blue</a>
+                    <div onClick={()=> onColorChange('blue')} className="tc-link"    id="" >Blue</div>
                 </div>
             </div>
             <div id="click">

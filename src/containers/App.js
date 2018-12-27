@@ -27,6 +27,7 @@ class App extends Component {
   componentDidMount () {
     fetch('https://ac-server.herokuapp.com/')
       .then(response => response.json())
+      .then(console.log)
     
   }
 

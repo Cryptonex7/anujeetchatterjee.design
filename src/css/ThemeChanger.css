@@ -33,23 +33,32 @@ a {
     transform: scale(1.1);
 }
 
-#red:hover {
-    background-color: var(--ac-red);
+#red{
     transition: background-color 350ms,
                 transform 350ms;
-    ;
+}
+
+#red:hover {
+    background-color: var(--ac-red);
+}
+
+#green{
+    transition: background-color 350ms,
+                transform 350ms;
 }
 
 #green:hover {
     background-color: var(--ac-green);
+}
+
+#blue{
     transition: background-color 350ms,
                 transform 350ms;
 }
 
 #blue:hover {
     background-color: var(--ac-signature-blue);
-    transition: background-color 350ms,
-                transform 350ms;
+    
     
 }
 
@@ -57,7 +66,7 @@ a {
     vertical-align: middle;
     text-decoration: none;
     transition: color .15s ease-in;
-    color: #b1b1b1;
+    color: white;
     font-size: 0.9rem;
     display: inline-block;
     padding-bottom: 0.2rem;

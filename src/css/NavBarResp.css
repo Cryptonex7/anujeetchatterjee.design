@@ -3,6 +3,11 @@
     padding: 0.9rem;
     color: white;
     text-decoration: none;
+    padding-bottom: 0;
+    background-color: var(--ac-black);
+    position: sticky;
+    top: 0;
+    z-index: 100000;
   }
   .Navbar__Link {
     padding-right: 2rem;
@@ -11,7 +16,8 @@
   
 .page-title{
   font-size: 1.1rem;
-  padding: 0.5rem;
+  padding: 0.7rem;
+  padding-top: 0;
   display: block;
 }
   .linkStyles{
@@ -43,7 +49,7 @@
   .nav-active{
     color : var(--ac-primary);
     transform: scale(1.1);;
-    background-color: var(--ac-dark-gray);
+    background-color: var(--ac-gray);
     border-bottom-right-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
   }
@@ -60,11 +66,7 @@
 
     }
     .Navbar{
-      background-color: var(--ac-gray-translucent);
       padding: 0;
-      position: sticky;
-      top: 0;
-      z-index: 100000;
     }
     .Navbar__Link{
       padding: 0.4rem 1rem;

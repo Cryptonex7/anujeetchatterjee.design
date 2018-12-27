@@ -5,15 +5,12 @@
   "homepage": "http://cryptonex7.github.io/anujeetchatterjee.design/",
   "dependencies": {
     "gsap": "^2.0.1",
-    "react": "^16.6.3",
+    "react": "^16.7.0",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "1.1.4",
-    "react-sidebar": "^2.3.2",
-    "redux": "^4.0.1",
-    "redux-logger": "^3.0.6",
-    "redux-thunk": "^2.3.0"
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -24,6 +21,13 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
+    "redux-logger": "^3.0.6",
     "gh-pages": "^1.2.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }

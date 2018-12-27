@@ -16,7 +16,7 @@ class Subscribe extends Component{
         this.setState({email: event.target.value});
     }
     onSubscribe = () =>{
-        if(this.state.email.includes("@") && this.state.email.includes(".com"))
+        if(this.state.email.includes("@") && this.state.email.includes("."))
         {            
             fetch('https://ac-server.herokuapp.com/subscribe', {
                 method: 'post',
@@ -28,7 +28,10 @@ class Subscribe extends Component{
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                if(data !== '400') this.setState({subscribe: true});
+                if(data !== '400') {
+                    this.setState({subscribe: true});
+                    console.log(data);
+                }
                 else console.log("Email Registered")
             })
         }

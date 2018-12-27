@@ -53,7 +53,6 @@
 }
 
 .sub-btn:hover {
-    background-color: var(--ac-blue-dark);
     filter: drop-shadow(2px 2px 3px var(--ac-white));
     transform: scale(1.06);
 }
@@ -83,6 +82,10 @@
         margin:auto;
         filter: drop-shadow(4px 4px 3px var(--ac-primary));
         
+    }
+    .sub-bar:hover{
+        transform: none;
+        transition: none;
     }
     .email-box, .sub-btn{
         height: 24px;

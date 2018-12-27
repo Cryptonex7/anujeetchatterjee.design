@@ -5,9 +5,9 @@ html {
 
     --ac-black: #000;
     --ac-gray: #151515;
-    --ac-gray-translucent: #151515fd;
-    --ac-dark-gray: #101010;
-    --ac-dark-gray-translucent: #101010ed;
+    --ac-gray-translucent: #151515e7;
+    --ac-dark-gray: #0d0d0d;
+    --ac-dark-gray-translucent: #0d0d0de7;
     --ac-white: #fff;
     
     --ac-red: #BF0000;
