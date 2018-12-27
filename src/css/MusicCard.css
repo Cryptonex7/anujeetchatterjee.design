@@ -14,14 +14,31 @@
 }
 
 #content{
-    width: 85%;
-    margin: auto;
+    width: 35%;
+    text-align: left;
     margin-bottom: 20px;
+    margin-left: 15%;
+    float: left;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
 }
 
-.grid-container{
-    width: 75%;
+#head-grid{
+    width: 95%;
     margin: auto;
+}
+.grid-container{
+    width: 80%;
+    margin: auto;
+}
+
+.feat-card{
+    display: block;
+    width: 530px;
+    margin: 20px;
+    padding: 2rem;
+    float: left;
+
 }
 
 .thumb{
@@ -33,6 +50,8 @@
     text-decoration: none;
     color: var(--ac-text-gray);
     text-align: left;
+    overflow: hidden;
+    font-size: 1rem;
 }
 
 .design-title{
@@ -41,13 +60,37 @@
     margin-bottom: 15px;
 }
 
+@media only screen and (max-width: 1555px){
+    #content{
+        line-height: 1.4rem;
+    }
+    .feat-card{
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width: 1440px){
+    #content{
+        font-size: 1rem;
+    }
+    .feat-card{
+        width: 330px;
+    }
+}
+
 @media only screen and (max-width: 1250px){
-    .music-card{
+    .music-card, .feat-card{
         width: 90%;
         float: none;
         margin: 20px auto;
         filter: drop-shadow(4px 4px 5px var(--ac-primary));
-
+        padding: 1rem;
+    }
+    #content{
+        width: 90%;
+        float: none;
+        margin: 20px auto;
+        text-align: center;
     }
     .grid-container{
         width: 95%;

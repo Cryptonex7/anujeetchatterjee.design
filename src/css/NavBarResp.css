@@ -67,6 +67,7 @@
     }
     .Navbar{
       padding: 0;
+      background-color: var(--ac-gray);
     }
     .Navbar__Link{
       padding: 0.4rem 1rem;

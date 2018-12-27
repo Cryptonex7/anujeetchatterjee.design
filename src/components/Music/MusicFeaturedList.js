@@ -1,14 +1,14 @@
 import React from 'react';
-import MusicCard from './MusicCard';
+import MusicFeaturedCard from './MusicFeaturedCard';
 
-const MusicList = ({list}) =>{
+const MusicFeaturedList = ({list}) =>{
     return (
         <div className="m-cards">
             {   
                 list.map((item, i) => {
-                    if (i!==0)
+                    if (i===0)
                         return(
-                            <MusicCard 
+                            <MusicFeaturedCard 
                                 key={i} 
                                 img={list[i].snippet.thumbnails.high.url} 
                                 caption={list[i].snippet.title} 
@@ -22,4 +22,4 @@ const MusicList = ({list}) =>{
     );
 }
 
-export default MusicList;
+export default MusicFeaturedList;
