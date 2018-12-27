@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/anujeetchatterjee.design/static/media/tpff.9bf00640.png"
   },
   {
-    "revision": "9608e80fb718b4ef73cb",
-    "url": "/anujeetchatterjee.design/static/js/1.9608e80f.chunk.js"
+    "revision": "98f3ca8b9c160bb0c974",
+    "url": "/anujeetchatterjee.design/static/js/1.98f3ca8b.chunk.js"
   },
   {
     "revision": "1008575977cd491c308f",
@@ -40,8 +40,8 @@ self.__precacheManifest = [
     "url": "/anujeetchatterjee.design/static/js/5.deb7dcc3.chunk.js"
   },
   {
-    "revision": "ca9d89161527a961a027",
-    "url": "/anujeetchatterjee.design/static/js/runtime~main.ca9d8916.js"
+    "revision": "7c668a17390d6b576385",
+    "url": "/anujeetchatterjee.design/static/js/runtime~main.7c668a17.js"
   },
   {
     "revision": "a7cd08f0f155735885e5a26429f51ba5",
@@ -88,11 +88,11 @@ self.__precacheManifest = [
     "url": "/anujeetchatterjee.design/static/css/3.5a9e9dd9.chunk.css"
   },
   {
-    "revision": "9608e80fb718b4ef73cb",
+    "revision": "98f3ca8b9c160bb0c974",
     "url": "/anujeetchatterjee.design/static/css/1.ece1cd38.chunk.css"
   },
   {
-    "revision": "15f9e34b5ae3acee3a1dd9ddfb342d97",
+    "revision": "5f2b01c0ba8dff7fbe1a476e04abb6aa",
     "url": "/anujeetchatterjee.design/index.html"
   }
 ];
