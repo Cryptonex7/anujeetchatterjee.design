@@ -28,7 +28,7 @@ class Subscribe extends Component{
             .then(response => response.json())
             .then(data => {
                 console.log(data);
-                if(data == '200') 
+                if(data === '200') 
                     this.setState({subscribe: "true"});
                 else if (data.detail === `Key (email)=(${this.state.email}) already exists.`)
                     this.setState({subscribe: "exists"})
