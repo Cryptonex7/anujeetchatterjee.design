@@ -24,12 +24,18 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 class App extends Component {
+  // componentDidMount () {
+  //   fetch('https://ac-server.herokuapp.com/')
+  //     .then(response => response.json())
+  //     .then(console.log)
+    
+  // } //--------------PRODUCTION
+
   componentDidMount () {
-    fetch('https://ac-server.herokuapp.com/')
-      .then(response => response.json())
+    fetch('http://localhost:3000/') ////change localhost to 192.168.99.100 whne using docker contaier
       .then(console.log)
     
-  }
+  } //_----------------------DEVELOPMENT
 
   render() {
 		const { onPageChange } = this.props;

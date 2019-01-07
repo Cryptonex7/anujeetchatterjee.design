@@ -15,7 +15,7 @@ class Subscribe extends Component{
     onSubscribe = () =>{
         if(this.state.email.includes("@") && this.state.email.includes("."))
         {            
-            fetch('https://ac-server.herokuapp.com/subscribe', {
+            fetch('http://localhost:3000/subscribe', {          //change localhost to 192.168.99.100 whne using docker contaier
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 body: JSON.stringify({
